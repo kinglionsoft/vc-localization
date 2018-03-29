@@ -1,0 +1,50 @@
+﻿{
+  "catalog-publishing": {
+    "main-menu-title": "渠道列表",
+    "blades": {
+      "channel-list": {
+        "title": "渠道列表",
+        "labels": {
+          "name": "名称",
+          "catalog": "目录",
+          "readiness-percent": "完成度"
+        }
+      },
+      "channel-details": {
+        "new-title": "新建渠道",
+        "title": "渠道",
+        "labels": {
+          "name": "名称",
+          "name-description": "仅支持字母、数据和下划线",
+          "language": "语言",
+          "catalog": "目录",
+          "pricelist": "价格列表",
+          "evaluator": "评估类型",
+          "evaluator-description": "评估产品发布完成度的一组算法",
+          "evaluate": "评估",
+          "name-pattern-error-message": "仅支持字母和数字"
+        }
+      },
+      "channel-select": {
+        "title": "选择一个渠道",
+        "labels": {
+          "channels": "选择一个渠道"
+        }
+      },
+      "channel-evaluate-details": {
+        "title": "渠道评估进度"
+      }
+    },
+    "dialogs": {
+      "channel-delete": {
+        "title": "删除确认",
+        "message": "您确认删除此发布渠道吗？"
+      }
+    },
+    "widgets": {
+      "catalog-publishing": {
+        "title": "渠道发布准备就绪"
+      }
+    }
+  }
+}

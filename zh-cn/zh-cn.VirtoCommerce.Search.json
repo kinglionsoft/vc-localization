@@ -1,0 +1,33 @@
+﻿{
+    "search": {
+        "blades": {
+            "index-detail": {
+                "title": "索引",
+                "title-new": "索引丢失",
+                "subtitle": "索引详情",
+                "labels": {
+                    "no-index": "未发现索引",
+                    "build-date": "生成日期",
+                    "content": "索引内容"
+                }
+            },
+            "index-progress": {
+                "labels": {
+                    "start": "开始",
+                    "end": "结束",
+                    "errors": "错误"
+                }
+            }
+        },
+        "widgets": {
+            "index": {
+                "index-ok": "索引完成 <span am-time-ago='indexDate'></span>",
+                "index-old": "已过期. 索引生成于 <span am-time-ago='indexDate'>",
+                "no-index": "索引丢失"
+            }
+        },
+        "commands": {
+            "rebuild-index": "重建索引"
+        }
+    }
+}

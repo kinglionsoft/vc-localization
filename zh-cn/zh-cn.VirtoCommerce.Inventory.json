@@ -1,0 +1,41 @@
+﻿{
+  "inventory": {
+    "blades": {
+      "inventory-detail": {
+        "subtitle": "编辑库存",
+        "labels": {
+          "in-stock": "有货",
+          "reserved": "预订的",
+          "reorder-min-quantity": "预购最小数量。",
+          "allow-preorder": "允许预购",
+          "reorder-quantity": "预购数量。",
+          "preorder-availability-date": "预购可用日期",
+          "allow-backorder": "允许缺货",
+          "backorder-quantity": "缺货数量。",
+          "backorder-availability-date": "缺货可用日期"
+        }
+      },
+      "inventory-fulfillmentcenters-list": {
+        "labels": {
+          "no-fulfillment-centers": "没有可用的配送中心"
+        }
+      }
+    },
+    "dialogs": {
+      "inventory-delete": {
+        "title": "确认删除",
+        "message": "您确定要删除这个报价单吗？"
+      },
+      "inventory-save": {
+        "title": "保存更改",
+        "message": "库存已被修改。您想保存吗？"
+      }
+    },
+    "widgets": {
+      "inventoryWidget": {
+        "title": "库存",
+        "blade-subtitle": "选择配送中心以编辑库存"
+      }
+    }
+  }
+}

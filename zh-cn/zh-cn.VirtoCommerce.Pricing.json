@@ -1,0 +1,156 @@
+﻿{
+    "pricing": {
+        "main-menu-title": "价格表",
+        "blades": {
+            "pricing-main": {
+                "title": "价格表",
+                "subtitle": "商品管理",
+                "menu": {
+                    "pricelist-list": {
+                        "title": "价格表"
+                    },
+                    "pricelist-assignment-list": {
+                        "title": "价格表分配"
+                    }
+                }
+            },
+            "pricelist-list": {
+                "subtitle": "管理价格表",
+                "labels": {
+                    "name": "名称",
+                    "currency": "货币",
+                    "last-modified": "修改于"
+                }
+            },
+            "pricelist-detail": {
+                "title-new": "新建价格表",
+                "labels": {
+                    "name": "名称",
+                    "currency": "货币",
+                    "description": "描述"
+                },
+                "placeholders": {
+                    "name": "请输入名称",
+                    "currency": "请选择...",
+                    "description": "请输入描述"
+                }
+            },
+            "pricelist-item-list": {
+                "subtitle": "选择价格表来管理价格",
+                "labels": {
+                    "picture": "图片",
+                    "item-name": "名称",
+                    "item-code": "代码",
+                    "price-range": "价格范围",
+                    "prices-count": "价格数量"
+                },
+                "placeholders": {
+                    "search-item": "按名称搜索..."
+                }
+            },
+            "prices-list": {
+                "title": "{{name}}的价格",
+                "subtitle": "编辑价格",
+                "labels": {
+                    "currency": "货币",
+                    "list-price": "出厂价",
+                    "sale-price": "销售价格",
+                    "min-quantity": "最小数量",
+                    "last-modified": "修改于"
+                }
+            },
+            "pricelist-assignment-list": {
+                "subtitle": "管理分配的目录",
+                "labels": {
+                    "assignment-name": "分配的名称",
+                    "catalog": "目录",
+                    "priority": "优先级"
+                }
+            },
+            "assignment-list": {
+                "subtitle": "商品管理",
+                "labels": {
+                    "name": "名称",
+                    "catalog": "目录",
+                    "pricelist": "价格表",
+                    "pricelist-currency": "货币",
+                    "priority": "优先级",
+                    "last-modified": "修改于",
+                    "modified-by": "修改 by"
+                }
+            },
+            "assignment-detail": {
+                "new-title": "新建价格表分配",
+                "subtitle": "商品管理",
+                "labels": {
+                    "assignment-name": "分配名称",
+                    "price-list": "价格表",
+                    "catalog": "目录",
+                    "priority": "优先级",
+                    "description": "描述",
+                    "enable-date": "有效期，留空则表示永久有效",
+                    "expiration-date": "失效期，留空则表示永久有效",
+                    "eligible-shoppers": "优选客户"
+                },
+                "placeholders": {
+                    "assignment-name": "请输入名称",
+                    "price-list": "请选择...",
+                    "catalog": "请选择...",
+                    "description": "请输入描述"
+                }
+            },
+            "item-pricelists-list": {
+                "subtitle": "选择价格表来管理价格",
+                "labels": {
+                    "name": "价格表",
+                    "currency": "货币",
+                    "priority": "优先级",
+                    "prices-count": "价格数量"
+                },
+                "no-assignments": "此目录还没有分配价格表，请点击此链接进行分配",
+                "manage-pricelists": "管理价格"
+            }
+        },
+        "widgets": {
+            "assignments": {
+                "title": "已分配的目录"
+            },
+            "itemPricesWidget": {
+                "title": "价格",
+                "assign-pricelist": "分配价格表"
+            },
+            "prices": {
+                "title": "价格"
+            }
+        },
+        "dialogs": {
+            "assignments-delete": {
+                "title": "确认删除",
+                "message": "您确定要删除选定的价格表任务吗？"
+            },
+            "pricelists-delete": {
+                "title": "确认删除",
+                "message": "您确定要删除选定的价格表吗？"
+            },
+            "pricelist-item-list-delete": {
+                "title": "确认删除",
+                "message": "您确定要删除选定产品的价格表吗？?"
+            },
+            "prices-save": {
+                "title": "保存更改",
+                "message": "该价格已被修改。您想保存吗？"
+            },
+            "pricelist-save": {
+                "title": "保存更改",
+                "message": "该价格表已被修改。您想保存吗？"
+            },
+            "assignment-save": {
+                "title": "保存更改",
+                "message": "已修改的目录分配。您想保存改变吗？"
+            }
+        },
+        "commands": {
+            "add-selected": "添加选择项"
+        }
+    }
+}

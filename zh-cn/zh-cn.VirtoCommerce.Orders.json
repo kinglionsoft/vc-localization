@@ -1,0 +1,243 @@
+﻿{
+    "orders": {
+        "main-menu-title": "订单中心",
+        "blades": {
+            "customerOrder-detail": {
+                "title": "{{customer}} 的订单",
+                "subtitle": "编辑订单明细及相关内容",
+                "labels": {
+                    "approved": "审核",
+                    "employee": "分配给",
+                    "order-number": "用户订单号",
+                    "status": "状态",
+                    "store": "商店",
+                    "from": "来自",
+                    "channel": "渠道",
+                    "customer": "用户",
+                    "invoice": "获取发票的PDF"
+                },
+                "placeholders": {
+                    "employee": "选择员工",
+                    "status": "请选择...",
+                    "store": "在列表中选择或搜索一个店铺..."
+                }
+            },
+            "customerOrder-items": {
+                "labels": {
+                    "item": "子项",
+                    "quantity": "数量",
+                    "available": "可用",
+                    "await": "等待",
+                    "price": "价格",
+                    "tax": "税",
+                    "priceWithTax": "单价(含税)",
+                    "discount": "折扣",
+                    "discountWithTax": "折扣(含税)",
+                    "total": "总计",
+                    "dynamic-properties": "动态属性",
+                    "sub-total": "小计",
+                    "discount-total": "折扣总计",
+                    "tax-total": "税总计"
+                }
+            },
+            "customerOrder-list": {
+                "title": "用户订单",
+                "labels": {
+                    "new-filter": "添加新过滤器",
+                    "unnamed-filter": "未命名过滤器",
+                    "number": "订单号",
+                    "customer": "客户",
+                    "confirmed": "确认",
+                    "status": "状态",
+                    "total": "总计",
+                    "currency": "货币",
+                    "store": "商店",
+                    "created": "创建于"
+                },
+                "placeholders": {
+                    "select-filter": "请选择过滤器"
+                }
+            },
+            "filter-detail": {
+                "subtitle": "编辑过滤器",
+                "new-title": "新建过滤器",
+                "new-subtitle": "创建过滤器",
+                "labels": {
+                    "name": "过滤器名称",
+                    "name_": "您将如何称呼此过滤器？",
+                    "criteria": "筛选条件",
+                    "from": "创建日期自",
+                    "to": "创建日期到"
+                },
+                "placeholders": {
+                    "all": "未指定"
+                }
+            },
+            "operation-comment": {
+                "labels": {
+                    "comments": "评论"
+                }
+            },
+            "payment-detail": {
+                "title": "付款 #{{number}}",
+                "title-new": "New Incoming payment",
+                "subtitle": "编辑付款明细及相关内容",
+                "labels": {
+                    "approved": "审核",
+                    "payment-number": "支付号",
+                    "status": "状态",
+                    "amount": "金额",
+                    "from": "来自",
+                    "payment-gateway": "支付网关",
+                    "payment-purpose": "支付原因",
+                    "price": "支付金额",
+                    "price-with-tax": "支付金额(含税)"
+                },
+                "placeholders": {
+                    "status": "请选择...",
+                    "payment-gateway": "请选择..."
+                }
+            },
+            "transactions-list": {
+                "title": "交易的支付网关",
+                "subtitle": "交易的支付网关列表"
+            },
+            "transaction-detail": {
+                "title": "交易详情",
+                "subtitle": "原始交易数据"
+            },
+            "shipment-detail": {
+                "title": "配送 #{{number}}",
+                "title-new": "新建配送",
+                "subtitle": "编辑配送明细",
+                "labels": {
+                    "shipment-method": "配送方式",
+                    "approved": "审核",
+                    "shipment-number": "配送号",
+                    "status": "状态",
+                    "fulfillment-center": "配送中心",
+                    "from": "来自",
+                    "employee": "员工",
+                    "price": "运费",
+                    "price-with-tax": "运费(含税)"
+                },
+                "placeholders": {
+                    "status": "请选择...",
+                    "shipment-method": "请选择...",
+                    "fulfillment-center": "请选择或者搜索..."
+                }
+            },
+            "shipment-items": {
+                "title": "{{title}} 详情",
+                "subtitle": "编辑配送详情",
+                "labels": {
+                    "item": "子项",
+                    "quantity": "数量",
+                    "price": "价格",
+                    "total": "总计"
+                }
+            },
+            "catalog-items-select": {
+                "title": "添加到订单"
+            },
+            "newOperation-wizard": {
+                "title": "新的操作",
+                "subtitle": "请选择操作类型",
+                "menu": {
+                    "shipment-operation": {
+                        "description": "添加新的发货"
+                    },
+                    "payment-operation": {
+                        "description": "添加新的付款"
+                    }
+                }
+            }
+        },
+        "widgets": {
+            "customerOrder-address": {
+                "title": "地址",
+                "blade-title": "管理地址"
+            },
+            "customerOrder-items": {
+                "title": "详情",
+                "blade-title": "{{title}}的详情",
+                "blade-subtitle": "编辑详情"
+            },
+            "customerOrder-totals": {
+                "sub-total": "小计",
+                "shipping-total": "运费总计",
+                "shipping-sub-total": "运费小计",
+                "payment-sub-total": "支付金额",
+                "tax-total": "税总计",
+                "discount": "折扣",
+                "discount-total": "折扣总计",
+                "discount-total-with-tax": "折扣总计(含税)",
+                "total": "总计"
+            },
+            "operation-comment": {
+                "no-comments": "没有评论",
+                "blade-title": "写评论"
+            },
+            "shipment-address": {
+                "blade-title": "管理收货地址",
+                "title": "收货地址"
+            },
+            "shipment-items": {
+                "title": "配送详情"
+            },
+            "shipment-totals": {
+                "tax-total": "税总计",
+                "shipment-total": "运费总计",
+                "shipment-price": "运费",
+                "discount-total": "折扣总计",
+                "total": "总计"
+            },
+            "payment-totals": {
+                "tax-total": "税费总计",
+                "payment-total": "费用总计",
+                "payment-price": "支付金额",
+                "discount-total": "折扣总计",
+                "total": "总计"
+            },
+            "payment-address": {
+                "blade-title": "管理账单地址",
+                "title": "支付地址"
+            },
+            "statistics-templates": {
+                "revenue": "收入",
+                "customers-with-orders": "用户订单",
+                "average-order-value": "平均订单价值",
+                "items-purchased": "购买的商品",
+                "lines-per-order": "订单详情",
+                "revenue-per-customer": "客户单价"
+            }
+        },
+        "dialogs": {
+            "orders-delete": {
+                "title": "确认删除",
+                "message": "您确定要删除选定的客户订单吗？"
+            },
+            "operation-save": {
+                "title": "保存更改",
+                "message": "该操作已被修改。您想保存吗？"
+            },
+            "operation-delete": {
+                "title": "确认删除",
+                "message": "您确定要删除当前操作吗？"
+            },
+            "operation-cancel": {
+                "title": "取消操作",
+                "message": "您确定要取消这个记录吗？",
+                "placeholders": {
+                    "reason": "请在这里输入取消原因..."
+                }
+            }
+        },
+        "commands": {
+            "new-document": "新的记录",
+            "cancel-document": "取消记录",
+            "add-selected": "添加选择项",
+            "add-item": "添加项"
+        }
+    }
+}

@@ -1,0 +1,360 @@
+﻿{
+    "marketing": {
+        "main-menu-title": "营销中心",
+        "widgets": {
+            "couponsWidget": {
+                "title": "优惠券",
+                "newPromotion": "您可以在保存优惠活动中添加优惠券"
+            }
+        },
+        "blades": {
+            "marketing-main": {
+                "title": "营销中心"
+            },
+            "promotion-detail": {
+                "title-new": "新的促销活动",
+                "labels": {
+                    "is-active": "启用",
+                    "promotion-name": "促销活动名称",
+                    "description": "描述",
+                    "store": "商店",
+                    "start-date": "开始日期",
+                    "usage-limit": "使用限制",
+                    "coupons": "优惠券",
+                    "expiration-date": "到期日期",
+                    "per-customer-limit": "限制每个客户",
+                    "promotion-conditions": "促销条件"
+                },
+                "placeholders": {
+                    "promotion-name": "请输入名称...",
+                    "description": "请输入描述...",
+                    "store": "请选择...",
+                    "start-date": "请选择日期...",
+                    "coupons": "请输入优惠券代码...",
+                    "expiration-date": "请选择日期..."
+                },
+                "toolbar": {
+                    "coupons": "优惠券"
+                }
+            },
+            "coupon-detail": {
+                "new-title": "新建优惠券",
+                "title": "优惠券",
+                "labels": {
+                    "coupon-code": "Code",
+                    "code-description": "仅支持字母和数字",
+                    "max-uses-number": "最大使用量",
+                    "max-uses-number-description": "优惠券的最大使用量。0表示不限制。",
+                    "reservation-expiration-date": "保留期限",
+                    "reservation-expiration-date-description": "购物车中优惠券的保留期限。不针对订单。",
+                    "delimiter-description": "CSV列分隔符",
+                    "upload-description": "CSV文件中优惠券格式为：[优惠券码][分隔符][最大使用量]。如：xxxx123,100",
+                    "enter-value": "请输入值",
+                    "select-date": "请选择日期"
+                }
+            },
+            "promotion-list": {
+                "labels": {
+                    "name": "名称",
+                    "isActive": "是否激活",
+                    "last-modified": "修改于"
+                },
+                "new-filter": "新建过滤器",
+                "placeholders": {
+                    "select-filter": "选择过滤器"
+                }
+            },
+            "filter-detail": {
+                "subtitle": "编辑过滤器",
+                "new-title": "新建过滤器",
+                "new-subtitle": "创建过滤器",
+                "unnamed-filter": "未命名过滤器",
+                "labels": {
+                    "name": "过滤器名称",
+                    "name_": "您将如何称呼此过滤器？",
+                    "active": "仅激活"
+                },
+                "placeholders": {
+                    "all": "未指定"
+                }
+            },
+            "catalog-items-select": {
+                "title-product": "为促销条件选产品",
+                "title-category": "为促销条件选分类"
+            },
+            "dynamicContent-list": {
+                "menu": {
+                    "items": {
+                        "title": "内容项",
+                        "description": "内容项描述"
+                    },
+                    "placeholders": {
+                        "title": "内容占位符",
+                        "description": "占位符的描述"
+                    },
+                    "publishing": {
+                        "title": "内容发布",
+                        "description": "发布说明"
+                    }
+                }
+            },
+            "items": {
+                "add": {
+                    "title": "新的内容项元素",
+                    "subtitle": "添加新的内容项元素",
+                    "menu": {
+                        "folder": {
+                            "title": "内容项文件夹",
+                            "description": "内容子项的容器"
+                        },
+                        "item": {
+                            "title": "内容项",
+                            "description": "内容项."
+                        }
+                    }
+                },
+                "content-item-details": {
+                    "title": "编辑内容项元素",
+                    "subtitle": "编辑内容项元素",
+                    "title-new": "新的内容项元素",
+                    "subtitle-new": "添加新的内容项元素",
+                    "labels": {
+                        "content-item-name": "内容项名称",
+                        "content-item-description": "内容项描述",
+                        "none": "无"
+                    },
+                    "placeholders": {
+                        "content-item-name": "请输入内容项名称",
+                        "content-item-description": "请输入内容项描述"
+                    }
+                },
+                "folder-details": {
+                    "title": "编辑内容项文件夹元素",
+                    "subtitle": "编辑内容项文件夹元素",
+                    "title-new": "新的内容项文件夹元素",
+                    "subtitle-new": "添加新的内容项文件夹元素",
+                    "labels": {
+                        "folder-name": "文件夹名称:",
+                        "folder-description": "文件夹描述:"
+                    },
+                    "placeholders": {
+                        "folder-name": "请输入文件夹名称",
+                        "folder-description": "请输入文件夹描述"
+                    }
+                },
+                "list": {
+                    "title": "内容项",
+                    "subtitle": "内容项列表",
+                    "labels": {
+                        "picture": "图片",
+                        "name": "名称",
+                        "description": "描述",
+                        "no-data": "没有数据"
+                    },
+                    "noItemsMessage": "暂无内容子项"
+                }
+            },
+            "placeholders": {
+                "add": {
+                    "title": "新的占位符元素",
+                    "subtitle": "添加新的占位符元素",
+                    "menu": {
+                        "folder": {
+                            "title": "占位符的文件夹",
+                            "description": "占位符的容器。"
+                        },
+                        "item": {
+                            "title": "占位符",
+                            "description": "内容项的容器。"
+                        }
+                    }
+                },
+                "placeholder-details": {
+                    "title": "新的占位符元素",
+                    "subtitle": "添加新的占位符元素",
+                    "title-new": "编辑占位符元素",
+                    "subtitle-new": "编辑占位符元素",
+                    "labels": {
+                        "placeholder-name": "占位符名称",
+                        "placeholder-description": "占位符描述",
+                        "placeholder-image-description": "占位符图片描述",
+                        "image-note": "拖放图片在这里",
+                        "progress": "进度"
+                    },
+                    "placeholders": {
+                        "placeholder-name": "请输入占位符名称",
+                        "placeholder-description": "请输入占位符描述"
+                    }
+                },
+                "folder-details": {
+                    "title": "编辑占位符文件夹",
+                    "subtitle": "编辑占位符文件夹",
+                    "title-new": "新的占位符文件夹",
+                    "subtitle-new": "添加新的占位符文件夹",
+                    "labels": {
+                        "folder-name": "文件夹名称:",
+                        "folder-description": "文件夹描述:"
+                    },
+                    "placeholders": {
+                        "folder-name": "请输入文件夹名称",
+                        "folder-description": "请输入文件夹描述"
+                    }
+                },
+                "list": {
+                    "title": "内容占位符",
+                    "subtitle": "内容占位符列表",
+                    "labels": {
+                        "picture": "图片",
+                        "name": "名称",
+                        "description": "描述",
+                        "no-data": "没有数据"
+                    }
+                }
+            },
+            "publishing": {
+                "add-content-items": {
+                    "title": "添加内容项元素",
+                    "subtitle": "添加内容项元素",
+                    "labels": {
+                        "chosen-content-items": "选择内容项",
+                        "content-items": "内容项",
+                        "picture": "图片",
+                        "name": "名称",
+                        "description": "描述",
+                        "no-data": "没有数据"
+                    }
+                },
+                "add-placeholders": {
+                    "title": "添加占位符元素",
+                    "subtitle": "添加占位符元素",
+                    "labels": {
+                        "chosen-placeholders": "选择占位符",
+                        "content-placeholders": "内容占位符",
+                        "picture": "图片",
+                        "name": "名称",
+                        "description": "描述",
+                        "no-data": "没有数据"
+                    }
+                },
+                "publishing-main-step": {
+                    "title": "编辑发布元素",
+                    "subtitle": "编辑发布元素",
+                    "title-new": "新的发布元素",
+                    "subtitle-new": "新的发布元素",
+                    "labels": {
+                        "name": "名称",
+                        "description": "描述",
+                        "store": "商店",
+                        "is-active": "启用",
+                        "start-date": "开始日期",
+                        "end-date": "结束日期",
+                        "publishing-conditions": "发布条件"
+                    },
+                    "placeholders": {
+                        "name": "请输入发布名称",
+                        "description": "请输入发布描述",
+                        "store": "请选择...",
+                        "start-date": "请输入值",
+                        "end-date": "请输入值"
+                    },
+                    "menu": {
+                        "placeholders": {
+                            "title": "占位符",
+                            "description": "选择 {{quontity}} 占位符"
+                        },
+                        "content-items": {
+                            "title": "内容项",
+                            "description": "选择 {{quontity}} 内容项"
+                        }
+                    }
+                },
+                "list": {
+                    "title": "内容发布",
+                    "subtitle": "内容发布列表",
+                    "noItemsMessage": "暂无可发布的内容",
+                    "labels": {
+                        "picture": "图标",
+                        "name": "名称",
+                        "description": "描述",
+                        "no-data": "没有发布信息"
+                    }
+                }
+            },
+            "coupons": {
+                "code": "优惠码",
+                "total-uses-count": "总使用量",
+                "max-uses-number": "最大使用量",
+                "toolbar": {
+                    "add": "添加",
+                    "import": "导入",
+                    "refresh": "刷新",
+                    "delete": "删除",
+                    "delete-all": "删除所有"
+                },
+                "no-coupons-message": "暂无优惠券"
+            },
+            "coupons-import": {
+                "title": "导向优惠券",
+                "labels": {
+                    "delimiter": "CSV列分隔符",
+                    "upload": "上传CSV文件",
+                    "upload-progress": "上传进度",
+                    "space": "空格",
+                    "comma": "逗号",
+                    "semicolon": "分号",
+                    "tab": "Tab"
+                },
+                "placeholders": {
+                    "delimiter": "请选择..."
+                }
+            },
+            "coupons-import-processing": {
+                "title": "优惠券导入进度"
+            }
+        },
+        "dialogs": {
+            "content-item-delete": {
+                "title": "确认删除",
+                "message": "您确认删除此项吗？"
+            },
+            "placeholders-folder-delete": {
+                "title": "确认删除",
+                "message": "您确认删除此项吗？"
+            },
+            "content-item-folder-delete": {
+                "title": "确认删除",
+                "message": "您确认删除此项吗？"
+            },
+            "content-folder-delete": {
+                "title": "确认删除",
+                "message": "您确认删除此项吗？"
+            },
+            "publication-delete": {
+                "title": "确认删除",
+                "message": "您确认删除此项吗？"
+            },
+            "content-placeholder-delete": {
+                "title": "确认删除",
+                "message": "您确认删除此项吗？"
+            },
+            "promotions-delete": {
+                "title": "确认删除",
+                "message": "您确认删除此项吗？"
+            },
+            "promotion-save": {
+                "title": "保存更改",
+                "message": "优惠活动已变更。您确认保存吗？"
+            },
+            "coupon-delete": {
+                "title": "删除确认",
+                "message": "您确认删除选择的优惠券吗？",
+                "message-all": "您确认删除所有优惠券吗？"
+            }
+        },
+        "commands": {
+            "manage-type-properties": "管理类型的属性",
+            "edit-folder": "编辑文件夹",
+            "start-import": "开始导入"
+        }
+    }
+}

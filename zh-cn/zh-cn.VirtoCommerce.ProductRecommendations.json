@@ -1,0 +1,38 @@
+﻿{
+  "productRecommendationsModule": {
+    "widgets": {
+      "storeRecommendations": {
+        "title": "推荐"
+      }
+    },
+    "blades": {
+      "configuration": {
+        "title": "产品推荐",
+        "subtitle": "为产品推荐配置机器学习",
+        "labels": {
+          "export-catalog": "导出目录",
+          "export-usageData": "导出使用数据",
+          "description-start": "使用微软认知服务配置产品推荐 ",
+          "description-end": " 并且创建或者选择一个产品。上传目录及使用数据以生成产品推荐。"
+        }
+      },
+      "catalogExport": {
+        "title": "目录导出到CSV"
+      },
+      "usageDataExport": {
+        "title": "使用数据导出到CSV"
+      },
+      "export": {
+        "labels": {
+          "start": "开始",
+          "end": "结束",
+          "total": "总计",
+          "processed": "已处理",
+          "error-count": "失败量",
+          "errors": "错误",
+          "download-url": "下载地址"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,193 @@
+﻿{
+    "customer": {
+        "main-menu-title": "客户关系管理",
+        "blades": {
+            "contact-detail": {
+                "title-new": "新建客户",
+                "subtitle": "用户详情",
+                "labels": {
+                    "first-name": "名",
+                    "middle-name": "中间名",
+                    "last-name": "姓",
+                    "groups": "User groups",
+                    "full-name": "全名",
+                    "birthday": "生日",
+                    "salutation": "签名",
+                    "defaultLanguage": "默认语言",
+                    "organizations": "组织",
+                    "taxpayerId": "税务编号",
+                    "preferred-communication": "优先联系",
+                    "preferred-delivery": "优先发货",
+                    "timezone": "时区"
+                },
+                "placeholders": {
+                    "groups": "请选择用户组",
+                    "first-name": "请输入值",
+                    "middle-name": "请输入值",
+                    "last-name": "请输入值",
+                    "full-name": "请输入值",
+                    "birthday": "请输入值",
+                    "salutation": "请输入值",
+                    "defaultLanguage": "请输入值",
+                    "preferred-communication": "请输入值",
+                    "preferred-delivery": "请输入值",
+                    "taxpayerId": "请输入值",
+                    "organizations": "选择组织",
+                    "timezone": "选择值"
+                }
+            },
+            "employee-detail": {
+                "title-new": "新建员工",
+                "subtitle": "员工详情",
+                "labels": {
+                    "is-active": "启用",
+                    "first-name": "名",
+                    "middle-name": "中间名",
+                    "last-name": "姓",
+                    "full-name": "全名",
+                    "type": "员工类型",
+                    "birthday": "生日",
+                    "photo-url": "头像URL",
+                    "defaultLanguage": "默认语言",
+                    "organizations": "组织",
+                    "timezone": "时区"
+                },
+                "placeholders": {
+                    "first-name": "请输入值",
+                    "middle-name": "请输入值",
+                    "last-name": "请输入值",
+                    "full-name": "请输入值",
+                    "type": "请输入值",
+                    "birthday": "请输入值",
+                    "photo-url": "请输入 URL",
+                    "defaultLanguage": "请输入值",
+                    "organizations": "选择组织",
+                    "timezone": "选择值"
+                }
+            },
+            "pick-store-list": {
+                "title": "新的帐户",
+                "subtitle": "为新帐户选择一个商店",
+                "labels": {
+                    "name": "商店名称"
+                }
+            },
+            "organization-detail": {
+                "title-new": "新建组织",
+                "subtitle": "组织详情",
+                "labels": {
+                    "name": "名称",
+                    "description": "描述",
+                    "business-category": "业务范畴"
+                },
+                "placeholders": {
+                    "name": "请输入名称",
+                    "description": "请输入描述"
+                }
+            },
+            "vendor-detail": {
+                "title-new": "新建供应商",
+                "subtitle": "供应商详情",
+                "labels": {
+                    "name": "名称",
+                    "site-url": "网站URL",
+                    "logo-url": "Logo URL",
+                    "group-name": "分组名称",
+                    "description": "描述"
+                },
+                "placeholders": {
+                    "name": "请输入名称",
+                    "site-url": "请输入URL",
+                    "logo-url": "请输入URL",
+                    "group-name": "请输入值",
+                    "description": "请输入描述"
+                }
+            },
+            "member-add": {
+                "title": "",
+                "subtitle": "选择新的联系人类型",
+                "organization": {
+                    "description": "其他组织和客户的容器。"
+                },
+                "employee": {
+                    "description": "组织员工。"
+                },
+                "contact": {
+                    "description": "店铺顾客。可以属于组织或代表个人购物。"
+                },
+                "vendor": {
+                    "description": "商店的供应商."
+                }
+            },
+            "member-emails-list": {
+                "labels": {
+                    "no-emails": "没有邮件呢",
+                    "name": "名称",
+                    "address": "地址",
+                    "Email": "电子邮箱"
+                },
+                "placeholders": {
+                    "email": "请输入值"
+                }
+            },
+            "member-list": {
+                "title": "客户关系管理",
+                "subtitle": "浏览 '{{name}}'",
+                "labels": {
+                    "type": "类型",
+                    "name": "名称",
+                    "address": "地址",
+                    "email": "电子邮箱"
+                }
+            },
+            "member-phones-list": {
+                "labels": {
+                    "no-phones": "没有手机号码呢"
+                },
+                "placeholders": {
+                    "phone": "请输入手机号码"
+                }
+            }
+        },
+        "widgets": {
+            "address-list": {
+                "title": "地址",
+                "blade-subtitle": "管理地址"
+            },
+            "member-emails-list": {
+                "title": "Emails",
+                "blade-subtitle": "管理Emails"
+            },
+            "member-phones-list": {
+                "title": "手机号码",
+                "blade-subtitle": "管理手机号码"
+            },
+            "customer-accounts-list": {
+                "title": "账户",
+                "blade-subtitle": "管理客户账户"
+            }
+        },
+        "dialogs": {
+            "members-delete": {
+                "title": "确认删除",
+                "message": "您确定要删除选定的组织或联系人吗？"
+            },
+            "unknown-member-type": {
+                "title": "错误",
+                "message": "不能编辑未知类型【{{memberType}}】的成员"
+            },
+            "member-save": {
+                "title": "保存更改",
+                "message": "该联系人已被修改。您想保存吗？"
+            },
+            "email-save": {
+                "title": "保存更改",
+                "message": "该电子邮件已被修改。您想保存吗？"
+            },
+            "phone-number-save": {
+                "title": "保存更改",
+                "message": "该手机号码已被修改。您想保存吗？"
+            }
+        }
+    }
+}

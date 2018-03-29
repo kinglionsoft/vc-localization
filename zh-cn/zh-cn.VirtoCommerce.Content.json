@@ -1,0 +1,272 @@
+﻿{
+  "content": {
+    "main-menu-title": "内容中心",
+    "blades": {
+      "scope-value-pick-from-simple-list": {
+        "title": "仅对已选择的店铺有效",
+        "subtitle": "选择商店"
+      },
+      "content-main": {
+        "title": "内容",
+        "subtitle": "内容服务",
+        "labels": {
+          "no-active-theme": "没有活动主题，请点此选择",
+          "active-theme": "活动主题:",
+          "edit-css-html": "编辑CSS/HTML",
+          "preview-theme": "预览主题",
+          "customize-theme": "自定义主题",
+          "themes": "主题",
+          "pages": "页面",
+          "link-lists": "链接列表",
+          "blogs": "博客",
+          "stores": "商店",
+          "no-stores": "您可以在这里配置商店内容，但没有找到商店。打开商店菜单来创建一个。"
+        }
+      },
+      "themes-list": {
+        "title": "{{name}}",
+        "subtitle": "主题列表",
+        "labels": {
+          "name": "名称",
+          "activated": "激活",
+          "no-data": "没有主题呢"
+        }
+      },
+      "edit-asset": {
+        "subtitle": "编辑 {{name}}",
+        "title-new": "新的 {{name}}",
+        "subtitle-new": "创建新的 {{name}}",
+        "labels": {
+          "liquid-documentation": "Liquid文档",
+          "asset-name": "资源名称",
+          "upload-new-file": "上传新文件",
+          "progress": "进度"
+        },
+        "placeholders": {
+          "asset-name": "请输入资源名称"
+        },
+        "validations": {
+          "name-invalid": "名称只能包含字母, \"_\", \"-\" 和 \".\" 等字符。"
+        }
+      },
+      "edit-image-asset": {
+        "subtitle": "编辑 {{name}}"
+      },
+      "pages-list": {
+        "title-pages": "{{name}} 页面列表",
+        "subtitle-pages": "页面列表",
+        "title-blogs": "{{name}} 页面列表",
+        "subtitle-blogs": "博客列表",
+        "labels": {
+          "name": "名称",
+          "modified": " 修改于"
+        }
+      },
+      "link-lists": {
+        "title": "{{name}}链接列表",
+        "subtitle": "链接列表",
+        "labels": {
+          "name": "名称",
+          "language": "语言",
+          "no-data": "暂无数据"
+        }
+      },
+      "theme-detail": {
+        "subtitle": "管理主题",
+        "title-new": "新的主题",
+        "subtitle-new": "创建新的主题",
+        "labels": {
+          "theme-name": "主题名称"
+        },
+        "placeholders": {
+          "theme-name": "请输入主题名称"
+        }
+      },
+      "theme-upload": {
+        "title": "上传主题",
+        "labels": {
+          "select-files": "请选择主题文件",
+          "drag-note": "拖放主题文件(.zip)在这里",
+          "progress": "进度",
+          "file-selected": "主题文件: ",
+          "asset-uploaded": "主题文件上传完毕。"
+        },
+        "placeholders": {
+          "image-url": "粘贴主题文件的网址在这里"
+        }
+      },
+      "edit-page": {
+        "title": "编辑 '{{name}}'",
+        "subtitle": "页面编辑",
+        "title-new": "新建页面",
+        "subtitle-new": "创建新的页面",
+        "subtitle-post": "编辑博客文章",
+        "title-new-post": "新的文章",
+        "subtitle-new-post": "创建新的博客文章",
+        "labels": {
+          "name": "名称",
+          "language": "语言",
+          "drag-note": "拖放文件在这里",
+          "progress": "进度",
+          "markdown": "Markdown",
+          "metadata": "元数据"
+        },
+        "placeholders": {
+          "name": "请输入名称",
+          "language": "请选择...",
+          "metadata": "请输入元数据"
+        },
+        "validations": {
+          "pageName-invalid": "页面名称只能包含字母, \"_\", \"-\" and \".\" 等字符."
+        }
+      },
+      "menu-link-list": {
+        "title": "编辑 '{{name}}' 列表",
+        "subtitle": "编辑链接列表",
+        "title-new": "添加新的列表",
+        "subtitle-new": "创建新的列表",
+        "labels": {
+          "name": "名称",
+          "language": "语言",
+          "list-note": "设置在商店中的链接如何显示的顺序。拖放来改变顺序。",
+          "link-title": "链接标题",
+          "link-url": "链接",
+          "links-to": "链接到",
+          "linked-object": "链接对象"
+        },
+        "placeholders": {
+          "name": "请输入页面名称",
+          "language": "请选择...",
+          "associated-object-type": "选择类型",
+          "select-linked-object": "选择"
+        }
+      },
+      "catalog-items-select": {
+        "title-product": "选择链接的产品",
+        "title-category": "选择链接的分类"
+      },
+      "edit-blog": {
+        "subtitle": "编辑博客",
+        "title-new": "新的博客",
+        "subtitle-new": "创建新的博客",
+        "labels": {
+          "blog-name": "博客名称",
+          "metadata": "元数据"
+        },
+        "placeholders": {
+          "blog-name": "请输入博客名称"
+        },
+        "validations": {
+          "name-invalid": "名称仅支持字母、数字、 \"_\"、\"-\" 和 \".\""
+        }
+      },
+      "asset-list": {
+        "subtitle": "管理主题资源",
+        "labels": {
+          "add-new": "添加新的",
+          "nodata": "暂无资源"
+        }
+      },
+      "theme-asset-list": {
+        "title": "编辑{{path}}",
+        "subtitle": "主题资源列表",
+        "labels": {
+          "add-new": "添加新的",
+          "nodata": "没有资源呢"
+        }
+      }
+    },
+    "widgets": {
+      "menu": {
+        "title": "链接列表",
+        "blade-subtitle": "链接列表"
+      },
+      "pages": {
+        "title": "页面",
+        "blade-subtitle": "页面列表"
+      },
+      "store-cms": {
+        "themes": "主题",
+        "pages": "页面",
+        "blogs": "博客",
+        "links": "链接列表",
+        "active-theme": "活动主题"
+      }
+    },
+    "dialogs": {
+      "theme-clone": {
+        "title": "克隆确认",
+        "message": "您确定要克隆选定的主题吗？"
+      },
+      "link-list-delete": {
+        "title": "确认删除",
+        "message": "您确定要删除此链接列表吗？"
+      },
+      "links-delete": {
+        "title": "确认删除",
+        "message": "您确定要删除选定的链接吗？"
+      },
+      "blog-delete": {
+        "title": "确认删除",
+        "message": "您确定要删除选定的博客吗？"
+      },
+      "page-delete": {
+        "title": "确认删除",
+        "message": "您确定要删除这个页面吗？"
+      },
+      "blog-save": {
+        "title": "保存更改",
+        "message": "该博客已被修改。您想保存吗？"
+      },
+      "page-save": {
+        "title": "保存更改",
+        "message": "该页面已被修改。您想保存吗？"
+      },
+      "theme-save": {
+        "title": "保存更改",
+        "message": "该主题已被修改。您想保存吗？"
+      },
+      "theme-delete": {
+        "title": "确认删除",
+        "message": "您确定要删除'{{name}}'?",
+        "message-last-one": "这个主题是最后一个。如果您删除它，您的商店将会使用默认主题。 您确定要删除'{{name}}'吗？"
+      },
+      "asset-delete": {
+        "title": "确认删除",
+        "message": "您确定要删除这个资源吗？"
+      },
+      "asset-save": {
+        "title": "保存更改",
+        "message": "该资产已被修改。您想保存吗？"
+      },
+      "link-list-save": {
+        "title": "保存更改",
+        "message": "该菜单链接列表已被修改。您想保存吗？"
+      },
+      "set-store-url": {
+        "title": "这个商店没有设置网址",
+        "message": "在预览之前，请设置网址！"
+      },
+      "name-must-unique": {
+        "title": "名称不是唯一的",
+        "message": "名称必须唯一for this语言！"
+      }
+    },
+    "commands": {
+      "add-link": "新建链接",
+      "add-list": "添加列表",
+      "add-blog": "添加博客",
+      "add-post": "添加内容",
+      "add-page": "添加",
+      "delete-links": "删除全部链接",
+      "delete-theme": "删除",
+      "manage-metadata": "管理元数据属性",
+      "edit-as-markdown": "Edit as markdown",
+      "edit-as-html": "编辑HTML",
+      "preview-theme": "预览",
+      "edit-css-html": "编辑CSS/HTML",
+      "add-theme": "添加新的主题",
+      "set-active": "设为启用"
+    }
+  }
+}

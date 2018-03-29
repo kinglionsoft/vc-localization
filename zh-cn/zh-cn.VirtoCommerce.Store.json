@@ -1,0 +1,196 @@
+﻿{
+  "stores": {
+    "main-menu-title": "商店中心",
+    "blades": {
+      "stores-list": {
+        "title": "商店",
+        "labels": {
+          "no-stores": "没有商店呢",
+          "name": "名称"
+        }
+      },
+      "paymentMethod-detail": {
+        "subtitle": "编辑付款方式",
+        "labels": {
+          "is-active": "启用",
+          "is-partial-payments-available": "支持部分付款",
+          "name": "名称",
+          "code": "代码",
+          "description": "描述",
+          "settings": "设置"
+        },
+        "placeholders": {
+          "description": "请输入描述"
+        }
+      },
+      "paymentMethod-list": {
+        "subtitle": "编辑付款方式",
+        "labels": {
+          "is-active": "启用",
+          "payment-method": "付款方式",
+          "note": "设置付款方式的排序方式，拖放来改变顺序。"
+        },
+        "placeholders": {
+          "description": "请输入描述"
+        }
+      },
+      "shippingMethod-detail": {
+        "subtitle": "编辑配送方式",
+        "labels": {
+          "is-active": "启用",
+          "name": "名称",
+          "code": "代码",
+          "tax-type": "税种",
+          "description": "描述",
+          "settings": "设置"
+        },
+        "placeholders": {
+          "tax-type": "请选择...",
+          "description": "请输入描述"
+        }
+      },
+      "shippingMethod-list": {
+        "subtitle": "",
+        "labels": {
+          "is-active": "启用",
+          "shipping-method": "配送方式",
+          "note": "设置为如何在商店中排序的排序方式。拖放来改变顺序。"
+        }
+      },
+      "store-advanced": {
+        "subtitle": "",
+        "labels": {
+          "description": "描述",
+          "store-url": "商店URL",
+          "secure-url": "安全网址(SSL)",
+          "store-country": "商店的国家",
+          "store-region": "商店的省",
+          "store-email": "商店的Email",
+          "store-admin-email": "商店管理员Email",
+          "fulfillment-center": "配送中心",
+          "returns-fulfillment-center": "返回配送中心",
+          "operational-timezone": "时区"
+        },
+        "placeholders": {
+          "description": "请输入描述",
+          "store-url": "请输入URL",
+          "secure-url": "请输入安全网址(SSL)",
+          "store-country": "请选择 ...",
+          "store-region": "请选择 ...",
+          "store-email": "请输入值",
+          "store-admin-email": "请输入值",
+          "fulfillment-center": "请选择...",
+          "returns-fulfillment-center": "请选择...",
+          "operational-timezone": "请选择..."
+        }
+      },
+      "store-detail": {
+        "subtitle": "商店详情",
+        "labels": {
+          "code": "代码",
+          "name": "名称",
+          "catalog": "目录",
+          "state": "状态",
+          "default-language": "默认语言",
+          "additional-languages": "其他语言",
+          "default-currency": "默认货币",
+          "additional-currencies": "其他货币",
+          "linked-stores": "关联的店铺"
+        },
+        "placeholders": {
+          "code": "请输入代码",
+          "name": "请输入名称",
+          "catalog": "请选择...",
+          "state": "请选择...",
+          "default-language": "请选择...",
+          "additional-languages": "请选择...",
+          "default-currency": "请选择...",
+          "additional-currencies": "请选择...",
+          "linked-stores": "这家商店不能链接到其他商店。"
+        }
+      },
+      "new-store-wizard": {
+        "title": "新的商店",
+        "subtitle": "创建新的商店"
+      },
+      "taxProvider-detail": {
+        "subtitle": "编辑税收服务提供商",
+        "labels": {
+          "name": "名称",
+          "code": "代码",
+          "description": "描述",
+          "settings": "设置"
+        },
+        "placeholders": {
+          "description": "请输入描述"
+        }
+      },
+      "taxProvider-list": {
+        "subtitle": "",
+        "labels": {
+          "is-active": "启用",
+          "tax-provider": "税收服务提供商"
+        }
+      },
+      "loginOnBehalf-list": {
+        "title": "欢迎您 {{name}}",
+        "labels": {
+          "pick-store-to-login": "选择一家商店登录",
+          "no-stores": "没有商店呢"
+        },
+        "validations": {
+          "secure-url-missing": "安全网址缺失。点击打开商店细节。",
+          "default-language-missing": "默认语言缺失。点击打开商店细节。"
+        }
+      }
+    },
+    "widgets": {
+      "assetsWidget": {
+        "title": "资源"
+      },
+      "storeAdvancedWidget": {
+        "title": "高级属性",
+        "blade-subtitle": "高级属性"
+      },
+      "storeNotificationsLogWidget": {
+        "title": "通知日志",
+        "blade-subtitle": "通知日志",
+        "blade-title": "'商店 {{id}} 通知发送日志'"
+      },
+      "storeNotificationsWidget": {
+        "title": "通知",
+        "blade-subtitle": "通知服务",
+        "blade-title": "'商店 {{id}} 通知类型列表'"
+      },
+      "storePaymentsWidget": {
+        "title": "付款方式",
+        "blade-subtitle": "付款方式"
+      },
+      "storeSettingsWidget": {
+        "title": "设置",
+        "blade-subtitle": "设置"
+      },
+      "storeShippingWidget": {
+        "title": "配送方式",
+        "blade-subtitle": "配送方式"
+      },
+      "storeTaxingWidget": {
+        "title": "税收服务提供商",
+        "blade-subtitle": "税收服务提供商"
+      }
+    },
+    "dialogs": {
+      "store-delete": {
+        "title": "确认删除",
+        "message": "您确定要删除这家商店吗?"
+      },
+      "store-save": {
+        "title": "保存更改",
+        "message": "该商店已被修改。您想保存吗？"
+      }
+    },
+    "commands": {
+      "login-on-behalf": "登录"
+    }
+  }
+}

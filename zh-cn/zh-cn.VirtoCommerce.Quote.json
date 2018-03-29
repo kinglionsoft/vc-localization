@@ -1,0 +1,145 @@
+﻿{
+  "quotes": {
+    "main-menu-title": "报价单",
+    "blades": {
+      "quotes-assets": {
+        "subtitle": "报价单附件",
+        "labels": {
+          "drag-note": "拖放文件在这里",
+          "select-files": "选择文件",
+          "progress": "进度",
+          "type": "类型",
+          "name": "名称",
+          "actions": "操作"
+        }
+      },
+      "quote-detail": {
+        "subtitle": "报价单明细",
+        "labels": {
+          "customer": "用户",
+          "created": "创建于",
+          "customer-organization": "用户组织",
+          "last-updated": "最后更新",
+          "status": "状态",
+          "expiry-date": "过期日期",
+          "assigned-to": "分配到",
+          "rfq-from": "请求报价",
+          "reminder-date": "提醒日期",
+          "general-comment": "总评",
+          "internal-comment": "内部评论"
+        },
+        "placeholders": {
+          "status": "请选择...",
+          "expiry-date": "选择日期",
+          "assigned-to": "请选择...",
+          "rfq-from": "选择一个商店",
+          "reminder-date": "选择日期",
+          "general-comment": "公开的评论",
+          "internal-comment": "内部评论"
+        }
+      },
+      "quote-items": {
+        "title": "{{title}}的详情",
+        "subtitle": "编辑详情",
+        "labels": {
+          "new-subtotal": "新的小计",
+          "relative-discount": "相对折扣",
+          "shipping-method": "配送方式",
+          "manual-shipping-total": "人工运费总计",
+          "sub-total-placed": "小计",
+          "adjustment-quote": "报价调整",
+          "sub-total": "小计",
+          "shipping": "配送",
+          "discount": "折扣",
+          "grand-total": "总计",
+          "taxes": "税",
+          "grand-total-incl-tax": "总计 (含税)",
+          "picture": "图片",
+          "comment": "产品评论",
+          "list-price": "出厂价",
+          "sale-price": "销售价格",
+          "quantity": "数量",
+          "proposed-price": "拟议价格",
+          "margin": "保证金（GP）",
+          "product": "产品",
+          "sku": "SKU"
+        },
+        "placeholders": {
+          "shipping-method": "请选择...",
+          "comment": "请输入备注"
+        }
+      },
+      "quotes-list": {
+        "title": "报价",
+        "labels": {
+          "quote-number": "报价单 #",
+          "status": "状态",
+          "items-count": "子项数量",
+          "customer": "用户",
+          "created": "创建于",
+          "no-quotes": "没有报价单呢"
+        }
+      },
+      "catalog-items-select": {
+        "title": "添加报价单项"
+      }
+    },
+    "widgets": {
+      "quote-address": {
+        "address-type": "地址类型",
+        "no-address": "没有地址",
+        "blade-subtitle": "管理地址"
+      },
+      "quotes-assets": {
+        "title": "附件"
+      },
+      "quote-items": {
+        "title": "详情"
+      },
+      "quote-totals": {
+        "sub-total": "小计",
+        "shipping": "配送",
+        "discount": "折扣",
+        "grand-total": "总计"
+      }
+    },
+    "dialogs": {
+      "quote-requests-delete": {
+        "title": "确认删除",
+        "message": "您确定要删除选定的报价请求吗？"
+      },
+      "quote-delete": {
+        "title": "确认删除",
+        "message": "您确定要删除这个报价单吗？"
+      },
+      "quote-save": {
+        "title": "保存更改",
+        "message": "该报价单已被修改。您想保存吗？"
+      },
+      "quote-cancel": {
+        "title": "取消报价",
+        "message": "您确定要取消这个报价吗？",
+        "placeholders": {
+          "reason": "在这里输入取消原因..."
+        }
+      },
+      "proposal-delete": {
+        "title": "方案确认",
+        "message": "只有在提出建议后才可进行有限的修改。您确定要将此建议发送给客户吗？"
+      },
+      "hold-confirmation": {
+        "title": "搁置确认",
+        "message-release": "您确定撤销搁置此报价单吗？",
+        "message-place": "您确定搁置此报价单吗？"
+      }
+    },
+    "commands": {
+      "release-hold": "撤销搁置",
+      "place-on-hold": "搁置",
+      "submit-proposal": "提交方案",
+      "cancel-document": "取消文件",
+      "add-selected": "添加选择项",
+      "add-item": "添加项"
+    }
+  }
+}
