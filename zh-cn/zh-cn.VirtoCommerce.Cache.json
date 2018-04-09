@@ -1,8 +1,8 @@
 ﻿{
     "cache": {
 
-        "reset-cache-command": "Reset cache",
-        "cache-reset-sucesfully": "Cache has been reset successfully!"
+        "reset-cache-command": "重置缓存",
+        "cache-reset-sucesfully": "已成功重置缓存！"
 
     }
 }

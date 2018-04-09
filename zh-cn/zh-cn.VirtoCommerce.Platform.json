@@ -1,115 +1,115 @@
 ﻿{
     "platform": {
-      "menu": {
-        "home": "Home",
-        "browse": "Browse",
-        "configuration": "Configuration",
-        "notifications": "Notifications",
-        "more": "More",
-        "settings": "Settings",
-        "dynamic-properties": "Dynamic properties",
-        "security": "Security",
-        "modules": "Modules",
-        "export-import": "Export & Import",
-        "user-profile": "User profile",
-        "assets": "Assets",
-        "toggle-favorites": "Shift + Space to toggle favorites"
-      },
+        "menu": {
+            "home": "首页",
+            "browse": "功能",
+            "configuration": "配置",
+            "notifications": "消息中心",
+            "more": "更多",
+            "settings": "设置",
+            "dynamic-properties": "动态属性",
+            "security": "安全",
+            "modules": "模块",
+            "export-import": "导出导入",
+            "user-profile": "用户配置",
+            "assets": "资源",
+            "toggle-favorites": "点击星号加入快捷菜单"
+        },
         "navigation": {
-            "back": "Back",
-            "bread-crumb-top": "All"
+            "back": "返回",
+            "bread-crumb-top": "所有"
         },
         "blades": {
             "asset-list": {
-                "title": "Asset management",
+                "title": "资源管理",
                 "labels": {
-                    "picture": "Pic",
-                    "name": "Name",
-                    "size": "Size",
-                    "modified": "Modified",
-                    "actions": "Actions"
+                    "picture": "图片",
+                    "name": "名称",
+                    "size": "大小",
+                    "modified": "修改于",
+                    "actions": "操作"
                 }
             },
             "asset-upload": {
-                "title": "Asset upload",
+                "title": "资源上传",
                 "labels": {
-                    "select-files": "Select files",
-                    "drag-note": "Drag and drop files here",
-                    "progress": "Progress",
-                    "asset-uploaded": "Asset(s) uploaded."
+                    "select-files": "选择文件",
+                    "drag-note": "将文件拖放到这里",
+                    "progress": "进度",
+                    "asset-uploaded": "资源上传完毕."
                 },
                 "placeholders": {
-                    "image-url": "Paste file URL here"
+                    "image-url": "将文件URL粘贴在这里"
                 }
             },
             "operation-list": {
                 "labels": {
-                    "login": "Login",
-                    "details": "Details",
-                    "time": "Time"
+                    "login": "登录",
+                    "details": "详细信息",
+                    "time": "时间"
                 }
             },
             "dynamicObject-list": {
-                "title": "Dynamic object types",
-                "subtitle": "Pick object type to manage dynamic properties",
+                "title": "动态对象类型",
+                "subtitle": "选择对象类型来管理动态属性",
                 "labels": {
-                    "no-objects": "No objects supports dynamic properties yet."
+                    "no-objects": "没有对象支持动态属性。"
                 }
             },
             "dynamicProperty-detail": {
-                "title": "Manage property",
-                "subtitle": "Manage property",
-                "subtitle-new": "New property",
+                "title": "管理属性",
+                "subtitle": "管理属性",
+                "subtitle-new": "新建属性",
                 "labels": {
-                    "property-name": "Property name",
-                    "required": "Required",
-                    "multivalue": "Multivalue",
-                    "multilingual": "Multilingual",
-                    "dictionary": "Dictionary",
-                    "description": "Description",
-                    "display-name": "Display name",
-                    "value-type": "Value Type",
-                    "dictionary-values": "Dictionary values",
-                    "manage-dictionary": "Manage dictionary"
+                    "property-name": "属性名称",
+                    "required": "必填",
+                    "multivalue": "多值",
+                    "multilingual": "多语言",
+                    "dictionary": "字典",
+                    "description": "描述",
+                    "display-name": "显示名称",
+                    "value-type": "值类型",
+                    "dictionary-values": "字典的值",
+                    "manage-dictionary": "管理字典"
                 },
                 "placeholders": {
-                    "description": "Enter property description",
-                    "display-name": "Enter display name..."
+                    "description": "请输入属性的描述文字",
+                    "display-name": "请输入显示名称..."
                 },
                 "validations": {
-                    "multivalue": "Multivalue property can have only ShortText, Integer or Decimal value type.",
-                    "multilingual": "Only text or HTML value can be multilingual.",
-                    "dictionary": "Only dictionaries of value type ShortText are supported."
+                    "multivalue": "多值属性只能是ShortText、 Integer或者Decimal",
+                    "multilingual": "仅text或者HTML的值可以设置为多语种",
+                    "dictionary": "仅支持ShortText类型的字典"
                 }
             },
             "dynamicProperty-list": {
-                "subtitle": "Manage dynamic properties",
+                "subtitle": "管理动态属性",
                 "labels": {
-                    "no-properties": "No dynamic properties yet."
+                    "no-properties": "没有动态属性。"
                 }
             },
             "property-dictionary": {
-                "title": "Dictionary values",
-                "subtitle": "Manage dictionary values",
+                "title": "字典内容",
+                "subtitle": "管理字典内容",
                 "labels": {
-                    "edit-value": "Edit value",
-                    "new-value": "New value",
-                    "dictionary-name": "Dictionary entry name",
-                    "localized-values": "Localized values",
-                    "current-values": "Current values",
-                    "name": "Name",
-                    "values": "Values"
+                    "edit-value": "编辑值",
+                    "new-value": "新的值",
+                    "dictionary-name": "字典名称",
+                    "localized-values": "本地化值",
+                    "current-values": "当前值",
+                    "name": "名称",
+                    "values": "值"
                 },
                 "validations": {
-                    "dictionary-name-required": "Required",
-                    "dictionary-name": "Duplicate name found",
-                    "localized-values-required": "Required",
-                    "localized-values": "Duplicate name found",
-                    "dictionary": "Only dictionaries of value type ShortText are supported."
+                    "dictionary-name-required": "必填",
+                    "dictionary-name": "名称重复",
+                    "localized-values-required": "必填",
+                    "localized-values": "名称重复",
+                    "dictionary": "仅支持ShortText类型的字典."
                 },
                 "placeholders": {
-                    "dictionary-name": "Enter name",
-                    "localized-values": "Enter value"
+                    "dictionary-name": "请输入名称",
+                    "localized-values": "请输入值"
                 }
             },
             "property-valueType": {
@@ -117,411 +117,411 @@
                 "subtitle": "Change value type"
             },
             "propertyValue-list": {
-                "title": "Properties values",
-                "subtitle": "Edit properties values",
+                "title": "属性值",
+                "subtitle": "编辑属性值",
                 "labels": {
-                    "no-properties": "This entity doesn't have any dynamic properties yet. Click 'Manage type properties' and create some properties. Close and reopen current entity view to get dynamic properties loaded."
+                    "no-properties": "当前项暂无动态属性。点击【管理属性】可以新建属性，关闭并重新打开当前项以生效。"
                 }
             },
             "export-main": {
-                "title": "Data export",
+                "title": "数据导出",
                 "labels": {
                     "select-file": "Select file to import",
-                    "platform-entries": "Platform entries",
-                    "choose-modules": "Choose modules to export",
-                    "download-url": "Download Url",
-                    "errors": "Errors",
-                    "start-export": "Start export",
-                    "start": "Start",
-                    "end": "End"
+                    "platform-entries": "平台项",
+                    "choose-modules": "选择导出模块",
+                    "download-url": "下载链接",
+                    "errors": "错误",
+                    "start-export": "开始导出",
+                    "start": "开始",
+                    "end": "结束"
                 },
                 "menu": {
                     "security": {
-                        "title": "Security",
-                        "description": "Accounts and roles"
+                        "title": "安全",
+                        "description": "帐号和角色"
                     },
                     "binary": {
-                        "title": "Binary",
-                        "description": "Binary data"
+                        "title": "二进制",
+                        "description": "二进制数据"
                     },
                     "settings": {
-                        "title": "Settings",
-                        "description": "Platform settings"
+                        "title": "设置",
+                        "description": "平台设置"
                     }
                 }
             },
             "import-main": {
-                "title": "Data import",
+                "title": "数据导入",
                 "labels": {
-                    "start-import": "Start import",
-                    "select-file": "Select file to import",
-                    "upload-progress": "Upload progress",
-                    "import-data-information": "Import data information",
-                    "author": "Author",
-                    "data-file-created": "Data file created",
-                    "created-platform-version": "Created in platform version",
-                    "platform-entries": "Platform entries",
-                    "choose-modules": "Choose modules to import",
-                    "no-data": "No data",
-                    "errors": "Errors",
-                    "start": "Start",
-                    "end": "End"
+                    "start-import": "开始导入",
+                    "select-file": "选择导入文件",
+                    "upload-progress": "上传进度",
+                    "import-data-information": "导入数据信息",
+                    "author": "作者",
+                    "data-file-created": "数据文件已创建",
+                    "created-platform-version": "创建于平台版本",
+                    "platform-entries": "平台项",
+                    "choose-modules": "选择导入模块",
+                    "no-data": "没有数据",
+                    "errors": "错误",
+                    "start": "开始",
+                    "end": "结束"
                 },
                 "menu": {
                     "security": {
-                        "title": "Security",
-                        "description": "Accounts and roles"
+                        "title": "安全",
+                        "description": "帐号和角色"
                     },
                     "binary": {
                         "title": "Binary",
-                        "description": "Binary data"
+                        "description": "二进制数据"
                     },
                     "settings": {
-                        "title": "Settings",
-                        "description": "Platform settings"
+                        "title": "设置",
+                        "description": "平台设置"
                     }
                 }
             },
             "exportImport-main": {
-                "title": "Data export and import",
+                "title": "数据导出和导入",
                 "menu": {
                     "export": {
-                        "title": "Export",
-                        "description": "Data will be saved out to a file so it can later be imported."
+                        "title": "导出",
+                        "description": "数据将被保存到一个文件中，这样就可以在以后将数据导入。"
                     },
                     "import": {
-                        "title": "Import",
-                        "description": "Import data from an exported file."
+                        "title": "导入",
+                        "description": "从导出文件导入数据。"
                     }
                 }
             },
             "notification-journal-details": {
-                "title": "Details of notification",
+                "title": "通知明细",
                 "labels": {
-                    "notification-info": "Notification Info",
-                    "display-name": "Display name",
-                    "source": "Source",
-                    "sending-gateway": "Sending gateway",
-                    "active": "Active",
-                    "not-active": "Not active",
-                    "start-sending-date": "Start sending date",
-                    "sent-success": "Sent success",
-                    "not-sent": "Not sent",
-                    "sent": "Sent",
-                    "sent-date": "Sent date",
-                    "sender": "Sender",
-                    "recipient": "Recipient",
-                    "sending-attempts-count": "Sending attempts count",
-                    "last-fail-attempt-date": "Last fail attempt date",
-                    "last-fail-attempt-message": "Last fail attempt message"
+                    "notification-info": "通知信息",
+                    "display-name": "显示名称",
+                    "source": "来源",
+                    "sending-gateway": "发送网关",
+                    "active": "启用",
+                    "not-active": "禁用",
+                    "start-sending-date": "开始发送日期",
+                    "sent-success": "发送成功",
+                    "not-sent": "未发送",
+                    "sent": "已发送",
+                    "sent-date": "发送日期",
+                    "sender": "发件人",
+                    "recipient": "收件人",
+                    "sending-attempts-count": "发送尝试次数",
+                    "last-fail-attempt-date": "最后失败的尝试日期",
+                    "last-fail-attempt-message": "最后失败的尝试信息"
                 }
             },
             "notifications-edit-template": {
-                "title": "Edit notification template",
-                "title-new": "Create notification template",
+                "title": "编辑通知模版",
+                "title-new": "创建通知模板",
                 "labels": {
-                    "note": "This is list of notification parameters. You can paste this code and value of parameters will be inserted in your template",
-                    "parameter-name": "Parameter name",
-                    "parameter-description": "Parameter description",
-                    "paremeter-code": "Paremeter code in template (copy this code and insert anywhere in your template)",
-                    "language": "Language",
-                    "blank-note": "Leave blank to use default value",
-                    "sender": "Sender",
-                    "recipient": "Recipient",
-                    "subject": "Subject",
-                    "body": "Body"
+                    "note": "这是通知参数列表。您可以将此代码和参数的值粘贴在模板中",
+                    "parameter-name": "参数名称",
+                    "parameter-description": "参数描述",
+                    "paremeter-code": "模板中的参数代码（复制下面的代码，在您的模板的任何地方插入）",
+                    "language": "语言",
+                    "blank-note": "留空则使用默认值",
+                    "sender": "发送人",
+                    "recipient": "接收人",
+                    "subject": "主题",
+                    "body": "内容"
                 },
                 "placeholders": {
-                    "language": "Select..."
+                    "language": "请选择..."
                 }
             },
             "notifications-menu": {
-                "subtitle": "Working with notifications system"
+                "subtitle": "消息通知系统"
             },
             "notification-templates-list": {
-                "title": "Notification templates",
+                "title": "通知模板",
                 "labels": {
-                    "subject": "Subject",
-                    "body": "Body",
-                    "language": "Language"
+                    "subject": "主题",
+                    "body": "内容",
+                    "language": "语言"
                 }
             },
             "notifications-test-resolve": {
-                "title": "Preview notification",
-                "subtitle": "Enter test data for {{type}}",
+                "title": "预览通知",
+                "subtitle": "请输入【{{type}}】的测试数据",
                 "labels": {
-                    "test": "Test",
-                    "enter-test-data": "Enter test data"
+                    "test": "测试",
+                    "enter-test-data": "请输入测试数据"
                 }
             },
             "notifications-test-send": {
-                "title": "Send notification",
-                "subtitle": "Enter test data for {{type}}",
+                "title": "发送通知",
+                "subtitle": "请输入【{{type}}】的测试数据",
                 "labels": {
-                    "send": "Send",
-                    "enter-test-data": "Enter test data"
+                    "send": "发送",
+                    "enter-test-data": "请输入测试数据"
                 }
             },
             "notifications-journal": {
-                "title": "Journal of sending",
-                "subtitle": "Marketing service",
+                "title": "发送日志",
+                "subtitle": "营销服务",
                 "labels": {
-                    "display-name": "Display Name",
-                    "recipient": "Recipient",
-                    "sent-date": "Sent Date",
-                    "channel": "Channel",
-                    "error": "Error",
-                    "processing": "Processing",
-                    "success": "Success",
-                    "no-notifications": "No notifications yet"
+                    "display-name": "显示名称",
+                    "recipient": "收件人",
+                    "sent-date": "发送日期",
+                    "channel": "渠道",
+                    "error": "错误",
+                    "processing": "处理中",
+                    "success": "成功",
+                    "no-notifications": "没有通知信息"
                 }
             },
             "notifications-list": {
-                "title": "Notifications",
-                "subtitle": "Marketing service",
+                "title": "通知",
+                "subtitle": "营销服务",
                 "labels": {
-                    "no-notifications": "No registered notifications yet"
+                    "no-notifications": "没有注册通知信息"
                 }
             },
             "resolve-result": {
-                "title": "Preview result",
+                "title": "预览结果",
                 "labels": {
-                    "subject": "Subject",
+                    "subject": "主题",
                     "body": "Body"
                 }
             },
             "module-settings-detail": {
-                "title": "Module settings"
+                "title": "模块设置"
             },
             "module-wizard-progress-step": {
-                "title-install": "Module install",
-                "title-update": "Module update",
-                "title-uninstall": "Module uninstall",
+                "title-install": "安装模块",
+                "title-update": "更新模块",
+                "title-uninstall": "卸载模块",
                 "labels": {
-                    "start": "Start",
-                    "end": "End",
-                    "progress-messages": "Progress messages",
-                    "process-completed": "Module installation process completed.",
-                    "restart-application": "Restart the application now or later."
+                    "start": "开始",
+                    "end": "结束",
+                    "progress-messages": "进度消息",
+                    "process-completed": "模块安装完成。",
+                    "restart-application": "现在或稍后重新启动应用程序。"
                 }
             },
             "module-detail": {
-                "title": "Module information",
+                "title": "模块信息",
                 "labels": {
-                    "i-accept-the": "I accept the",
-                    "license-link": "license",
-                    "license": "License",
-                    "agreement": "agreement.",
-                    "install-from-file": "Install / update module from file",
-                    "select-module-file": "Upload a module (.zip) file from outside the central modules repository",
-                    "upload-progress": "Upload progress",
-                    "module-info": "Module info",
-                    "title": "Title",
-                    "author": "Author",
-                    "authors": "Authors",
+                    "i-accept-the": "我接受",
+                    "license-link": "许可证",
+                    "license": "许可证",
+                    "agreement": "协议",
+                    "install-from-file": "从文件中安装或者更新模块",
+                    "select-module-file": "选择模块文件",
+                    "upload-progress": "上传进度",
+                    "module-info": "模块信息",
+                    "title": "标题",
+                    "author": "作者",
+                    "authors": "作者",
                     "id": "ID",
-                    "version": "Version",
-                    "project-information": "Project Information",
-                    "description": "Description",
-                    "platform-version": "Platform Version",
-                    "dependencies": "Dependencies",
-                    "tags": "Tags",
-                    "install-version": "Install version",
-                    "errors": "Errors"
+                    "version": "版本",
+                    "project-information": "项目信息",
+                    "description": "描述",
+                    "platform-version": "平台版本",
+                    "dependencies": "依赖",
+                    "tags": "标签",
+                    "install-version": "版本",
+                    "errors": "错误"
                 }
             },
             "modules-main": {
-                "title": "Modules",
+                "title": "模块",
                 "labels": {
-                    "updates": "Updates",
-                    "available": "Available",
-                    "installed": "Installed",
-                    "withErrors": "Errors",
-                    "advanced": "Advanced"
+                    "updates": "更新",
+                    "available": "可用",
+                    "installed": "已安装",
+                    "withErrors": "出错",
+                    "advanced": "高级项"
                 }
             },
             "modules-list": {
-                "subtitle": "Modules management",
+                "subtitle": "管理已安装的模块",
                 "labels": {
-                    "grouping": "Show Module bundles",
-                    "ungrouped": "Other",
-                    "no-updates": "No updates found.",
-                    "no-modules-part1": "No new Modules to install.",
-                    "no-installed-modules": "No installed Modules found.",
-                    "icon": "Icon",
-                    "module": "Module",
-                    "version": "Version",
-                    "author": "Author"
+                    "grouping": "显示模块包",
+                    "ungrouped": "其它",
+                    "no-updates": "没有可用更新",
+                    "no-modules-part1": "未发现模块。 请检查模块所在的虚拟目录",
+                    "no-installed-modules": "未发现已安装的模块",
+                    "icon": "图标",
+                    "module": "模块",
+                    "version": "版本",
+                    "author": "作者"
                 }
             },
             "history": {
-                "title": "System events",
-                "subtitle": "Events history",
+                "title": "系统事件",
+                "subtitle": "事件历史",
                 "labels": {
-                    "type": "Type",
-                    "title": "Title",
-                    "created": "Created"
+                    "type": "类型",
+                    "title": "标题",
+                    "created": "创建于"
                 }
             },
             "historyDetailDefault": {
-                "title": "Event detail",
-                "subtitle": "Event detail"
+                "title": "事件详细信息",
+                "subtitle": "事件详情"
             },
             "menuHeader": {
                 "labels": {
-                    "history": "History",
-                    "clear-recent": "Clear all recent"
+                    "history": "历史",
+                    "clear-recent": "清除"
                 }
             },
             "account-api": {
-                "title": "API key",
-                "title-new": "New API key",
+                "title": "API密钥",
+                "title-new": "新的API密钥",
                 "labels": {
-                    "is-active": "Is active",
-                    "key-name": "Key name",
-                    "key-type": "Key type",
-                    "secret-key": "Secret key"
+                    "is-active": "启用",
+                    "key-name": "Key 名称",
+                    "key-type": "Key 类型",
+                    "secret-key": "密钥"
                 },
                 "placeholders": {
-                    "key-name": "Enter name",
-                    "key-type": "Select...",
-                    "secret-key": "Generate secret key",
-                    "app-id": "Generate..."
+                    "key-name": "请输入名称",
+                    "key-type": "请选择...",
+                    "secret-key": "生成密钥",
+                    "app-id": "生成..."
                 }
             },
             "account-api-list": {
                 "labels": {
-                    "is-active": "Is active",
-                    "name": "Name"
+                    "is-active": "启用",
+                    "name": "名称"
                 }
             },
             "account-changePassword": {
                 "labels": {
-                    "current-password": "Current password",
-                    "new-password": "New password",
-                    "repeat-password": "Repeat password"
+                    "current-password": "当前密码",
+                    "new-password": "新密码",
+                    "repeat-password": "重复密码"
                 },
                 "validations": {
-                    "current-password": "Required",
-                    "new-password": "Old and new passwords are the same!",
-                    "repeat-password": "New passwords doesn't match!"
+                    "current-password": "必填",
+                    "new-password": "旧密码和新密码是相同的！",
+                    "repeat-password": "新密码不匹配！"
                 },
                 "placeholders": {
-                    "current-password": "Enter current password",
-                    "new-password": "Enter new password",
-                    "repeat-password": "Repeat new password"
+                    "current-password": "请输入当前密码",
+                    "new-password": "请输入新密码",
+                    "repeat-password": "请重复输入新密码"
                 }
             },
             "account-resetPassword": {
-                "subtitle": "Change your password",
+                "subtitle": "修改您的密码",
                 "labels": {
-                    "new-password": "New password",
-                    "repeat-password": "Repeat password"
+                    "new-password": "新密码",
+                    "repeat-password": "重复密码"
                 },
                 "validations": {
-                    "repeat-password": "New passwords doesn't match!"
+                    "repeat-password": "新密码不匹配！"
                 },
                 "placeholders": {
-                    "new-password": "Enter new password",
-                    "repeat-password": "Repeat new password"
+                    "new-password": "请输入新密码",
+                    "repeat-password": "请重复输入新密码"
                 }
             },
             "account-detail": {
-                "title-new": "New Account",
+                "title-new": "新帐户",
                 "labels": {
-                    "user-information": "User information",
-                    "is-administrator": "Is administrator",
-                    "account-type": "Account type",
-                    "login": "Login",
-                    "account-state": "Account state",
-                    "container-id": "Container (store) ID"
+                    "user-information": "用户信息",
+                    "is-administrator": "是管理员",
+                    "account-type": "帐户类型",
+                    "login": "登录",
+                    "account-state": "帐户状态",
+                    "container-id": "容器 (店铺) ID"
                 },
                 "placeholders": {
-                    "account-type": "Select ..."
+                    "account-type": "请选择..."
                 }
             },
             "account-list": {
-                "title": "Users",
-                "subtitle": "Security service",
+                "title": "用户",
+                "subtitle": "安全服务",
                 "labels": {
-                    "name": "Name",
-                    "account-type": "Account type",
-                    "login": "Login",
-                    "state": "State"
+                    "name": "名称",
+                    "account-type": "帐户类型",
+                    "login": "登录",
+                    "state": "状态"
                 }
             },
             "role-detail": {
-                "subtitle": "Role details",
+                "subtitle": "角色详情",
                 "labels": {
-                    "summary": "Summary",
-                    "name": "Name",
-                    "description": "Description",
-                    "assigned-permissions": "Assigned permissions",
-                    "permission-name": "Name",
-                    "assigned-scopes": "Assigned scopes",
-                    "no-permissions-assigned": "No permissions assigned"
+                    "summary": "摘要",
+                    "name": "名称",
+                    "description": "描述",
+                    "assigned-permissions": "分配权限",
+                    "permission-name": "名称",
+                    "assigned-scopes": "指定的范围",
+                    "no-permissions-assigned": "没有权限可以分配。"
                 },
                 "placeholders": {
-                    "name": "Enter name",
-                    "description": "Enter description"
+                    "name": "请输入名称",
+                    "description": "请输入描述"
                 }
             },
             "account-roles": {
-                "subtitle": "Assign roles",
+                "subtitle": "分配角色",
                 "labels": {
-                    "select-roles": "Select roles to assign",
-                    "no-roles": "No roles to assign."
+                    "select-roles": "选择分配的角色",
+                    "no-roles": "没有角色可以分配。"
                 }
             },
             "account-roles-list": {
                 "title": "",
                 "labels": {
-                    "assigned-roles": "Assigned roles",
-                    "no-assigned": "No roles assigned."
+                    "assigned-roles": "分配角色",
+                    "no-assigned": "没有可分配的角色。"
                 }
             },
             "permission-scopes": {
-                "subtitle": "Configure permission scopes",
+                "subtitle": "配置权限范围",
                 "labels": {
-                    "select-bounded-scopes": "Select bounded scopes",
-                    "selected": "Selected",
-                    "scope-name": "Scope name and parameters",
-                    "no-scopes": "No scopes."
+                    "select-bounded-scopes": "选择选用范围",
+                    "selected": "选择",
+                    "scope-name": "范围名称及参数",
+                    "no-scopes": "暂无范围"
                 }
             },
             "role-permissions": {
-                "subtitle": "Assign permissions",
+                "subtitle": "分配权限",
                 "labels": {
-                    "select-permissions": "Select permissions to assign"
+                    "select-permissions": "选择分配的权限"
                 }
             },
             "new-role-wizard": {
-                "title": "New Role",
+                "title": "新角色",
                 "labels": {
-                    "summary": "Summary",
-                    "name": "Name",
-                    "description": "Description",
-                    "assign-permissions": "Assign permissions"
+                    "summary": "摘要",
+                    "name": "名称",
+                    "description": "描述",
+                    "assign-permissions": "分配权限"
                 },
                 "placeholders": {
-                    "name": "Enter name",
-                    "description": "Enter description"
+                    "name": "请输入名称",
+                    "description": "请输入描述"
                 }
             },
             "role-list": {
-                "title": "Roles",
-                "subtitle": "Security service",
+                "title": "角色",
+                "subtitle": "安全服务",
                 "labels": {
-                    "name": "Name"
+                    "name": "名称"
                 }
             },
             "login": {
                 "labels": {
-                    "sign-in": "Sign in to {{title}} Manager",
-                    "login": "Login",
-                    "password": "Password",
-                    "remember-me": "Remember me",
-                    "log-in": "Log in"
+                    "sign-in": "后台登录",
+                    "login": "登录",
+                    "password": "密码",
+                    "remember-me": "记住我",
+                    "log-in": "登录"
                 }
             },
             "license": {
@@ -553,182 +553,182 @@
             },
             "new-account-wizard": {
                 "labels": {
-                    "login": "Login",
-                    "password": "Password",
-                    "repeat-password": "Repeat password",
-                    "assign-roles": "Assign roles"
+                    "login": "登录",
+                    "password": "密码",
+                    "repeat-password": "重复密码",
+                    "assign-roles": "分配角色"
                 },
                 "placeholders": {
-                    "login": "Enter email address",
-                    "password": "Enter new password",
-                    "repeat-password": "Repeat new password"
+                    "login": "请输入电子邮箱",
+                    "password": "请输入新密码",
+                    "repeat-password": "请重复输入新密码"
                 }
             },
             "security-main": {
-                "title": "Security",
-                "subtitle": "User management"
+                "title": "安全",
+                "subtitle": "用户管理"
             },
             "entitySetting-list": {
-                "title": "Settings"
+                "title": "设置"
             },
             "setting-dictionary": {
-                "subtitle": "Manage dictionary values",
+                "subtitle": "管理字典的值",
                 "labels": {
-                    "new-value": "Please enter value",
-                    "current-values": "Current values",
-                    "value": "Value"
+                    "new-value": "请输入值",
+                    "current-values": "当前值",
+                    "value": "值"
                 },
                 "validations": {
-                    "new-value-required": "Required",
-                    "new-value": "Duplicate value found"
+                    "new-value-required": "必填",
+                    "new-value": "重复值"
                 },
                 "placeholders": {
-                    "new-value": "Please enter value"
+                    "new-value": "请输入值"
                 }
             },
             "settings-detail": {
-                "title": "Setting values"
+                "title": "设置值"
             },
             "settingGroup-list": {
-                "title": "Settings"
+                "title": "设置"
             },
             "user-profile": {
-                "title": "User profile",
+                "title": "用户配置",
                 "labels": {
-                    "set-language": "Set Manager language"
+                    "set-language": "设置管理员语言"
                 }
             }
         },
         "templates": {
             "sampleDataChoose": {
                 "labels": {
-                    "choose-sample-data-type": "Choose sample data type",
-                    "size": "size",
-                    "version": "version"
+                    "choose-sample-data-type": "选择样本数据类型",
+                    "size": "大小",
+                    "version": "版本"
                 }
             },
             "sampleDataInitialization": {
                 "labels": {
-                    "sample-data-initialization": "Sample data initialization",
-                    "starting-initialization": "Starting sample data initialization...",
-                    "errors": "Errors",
-                    "start": "Start",
-                    "end": "End"
+                    "sample-data-initialization": "样本数据初始化",
+                    "starting-initialization": "开始样本数据初始化...",
+                    "errors": "错误",
+                    "start": "开始",
+                    "end": "结束"
                 }
             },
             "licensing": {
                 "license-absent": "Community license",
                 "license-present": "{{type}} license",
                 "community": "Running community edition, click to request a commercial license.",
-                "expired": "You license has expired on {{expirationDate | date}}, please renew."
+                "expired": "You license has expired on {{expirationDate | amParse | date}}, please renew."
             },
             "modulesAutoInstallation": {
                 "labels": {
-                    "module-auto-installation": "Modules auto installation",
-                    "loading": "Retrieving modules information...",
-                    "finished": "Installation finished. Click Restart to continue.",
-                    "start": "Start",
-                    "end": "End"
+                    "module-auto-installation": "自动安装模块",
+                    "loading": "检索模块信息...",
+                    "finished": "安装已完成。点击【重启】以继续。",
+                    "start": "开始",
+                    "end": "结束"
                 }
             }
         },
         "widgets": {
             "operations": {
-                "title": "Changes",
-                "blade-subtitle": "Changes history"
+                "title": "修改",
+                "blade-subtitle": "修改历史"
             },
             "dynamicProperty": {
-                "title": "Dynamic properties"
+                "title": "动态属性"
             },
             "entitySettings": {
-                "title": "Settings"
+                "title": "设置"
             },
             "accountApi": {
-                "title": "API Keys",
-                "blade-subtitle": "API keys"
+                "title": "API密钥",
+                "blade-subtitle": "API密钥"
             },
             "accountRoles": {
-                "title": "Roles",
-                "blade-subtitle": "Manage roles"
+                "title": "角色",
+                "blade-subtitle": "管理角色"
             }
         },
         "dialogs": {
             "folders-delete": {
-                "title": "Delete confirmation",
-                "message": "Are you sure you want to delete selected folders or files?"
+                "title": "确认删除",
+                "message": "您确定要删除选定的文件夹或文件吗？"
             },
             "properties-save": {
-                "title": "Save changes",
-                "message": "The properties have been modified. Do you want to confirm changes?"
+                "title": "保存更改",
+                "message": "该属性已被修改。您想保存吗？"
             },
             "notification-template-save": {
-                "title": "Save changes",
-                "message": "The notification template has been modified. Do you want to save changes?"
+                "title": "保存更改",
+                "message": "该通知模板已被修改。您想保存吗？"
             },
             "role-save": {
-                "title": "Save changes",
-                "message": "The Role has been modified. Do you want to save changes?"
+                "title": "保存更改",
+                "message": "该角色已被修改。您想保存吗？"
             },
             "roles-delete": {
-                "title": "Delete confirmation",
-                "message": "Are you sure you want to delete selected Roles?"
+                "title": "确认删除",
+                "message": "您确定要删除选定的角色吗？"
             },
             "account-save": {
-                "title": "Save changes",
-                "message": "The Account has been modified. Do you want to save changes?"
+                "title": "保存更改",
+                "message": "该帐户已被修改。您想保存吗？"
             },
             "account-delete": {
-                "title": "Delete confirmation",
-                "message": "Are you sure you want to delete selected Accounts?"
+                "title": "确认删除",
+                "message": "您确定要删除选定的帐户吗？"
             },
             "dynamic-property-delete": {
-                "title": "Delete confirmation",
-                "message": "Are you sure you want to delete this Dynamic Property?"
+                "title": "确认删除",
+                "message": "您确定要删除这个动态属性吗？"
             },
             "settings-value-delete": {
-                "title": "Delete confirmation",
-                "message": "Are you sure you want to delete selected Values?"
+                "title": "确认删除",
+                "message": "您确定要删除选定的值吗？"
             },
             "settings-save": {
-                "title": "Save changes",
-                "message": "The settings has been modified. Do you want to confirm changes?"
+                "title": "保存更改",
+                "message": "该设置已被修改。您想保存吗？"
             },
             "settings-delete": {
-                "title": "Delete confirmation",
-                "message": "The settings has been modified. Do you want to save changes?"
+                "title": "确认删除",
+                "message": "该设置已被修改。您想保存吗？"
             },
             "email-sending-success": {
-                "title": "Sending success",
-                "message": "Email was sent successfully!"
+                "title": "发送成功",
+                "message": "发送电子邮件成功！"
             },
             "email-send-error": {
-                "title": "Error in sending",
-                "message": "Email wasn't send! Error: {{error}}"
+                "title": "发送出错",
+                "message": "电子邮件没有发送！"
             },
             "dictionary-items-delete": {
-                "title": "Delete confirmation",
-                "message": "Are you sure you want to delete {{quantity}} selected dictionary item(s)?"
+                "title": "确认删除",
+                "message": "您确定要删除选定的{{quantity}}项字典项吗？"
             },
             "module-action": {
-                "title-install": "Install confirmation",
-                "title-update": "Update confirmation",
-                "title-delete": "Uninstall confirmation",
-                "message0-install": "You are about to install:",
-                "message0-update": "You are about to update:",
-                "message0-delete": "You are about to uninstall:",
-                "message1-install": "The following dependencies will also be installed:",
-                "message1-delete": "The following depending modules will also be uninstalled:",
-                "message2-install": "Install selection and dependencies?",
-                "message2-update": "Update selection and dependencies?",
-                "message2-delete": "Uninstall this and ALL depending modules?"
+                "title-install": "安装信息",
+                "title-update": "更新信息",
+                "title-delete": "卸载信息",
+                "message0-install": "即将安装：",
+                "message0-update": "即将更新：",
+                "message0-delete": "即将卸载：",
+                "message1-install": "以下依赖项也将被安装：",
+                "message1-delete": "以下依赖项也将被卸载：",
+                "message2-install": "是否安装所选项及其依赖项？",
+                "message2-update": "是否更新所选项及其依赖项？",
+                "message2-delete": "是否卸载所选项及其依赖项？"
             },
             "module-delete": {
-                "title": "Delete confirmation",
-                "message": "Are you sure you want to uninstall this Module?"
+                "title": "确认删除",
+                "message": "您确定要卸载这个模块吗？"
             },
             "api-key-delete": {
-                "title": "Delete confirmation",
-                "message": "Are you sure you want to delete this API key?"
+                "title": "确认删除",
+                "message": "您确定要删除这个API密钥吗？"
             }
         }
     }

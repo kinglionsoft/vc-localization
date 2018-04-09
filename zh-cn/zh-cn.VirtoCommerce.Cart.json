@@ -1,39 +1,37 @@
 ﻿{
   "cart": {
-    "main-menu-title": "Shopping carts",
+    "main-menu-title": "购物车",
     "blades": {
       "carts-list": {
-        "title": "Shopping carts",
+        "title": "购物车",
         "labels": {
-          "customer": "Customer",
-          "items-count": "Items count",
-          "created": "Created",
-          "modified": "Modified",
-          "total": "Total"
+          "customer": "用户",
+          "items-count": "商品数量",
+          "created": "创建于",
+          "modified": "修改于",
+          "total": "总计"
         }
       },
       "cart-detail": {
-        "title": "{{name}} 's Shopping cart",
+        "title": "{{name}} 的购物车",
         "labels": {
-          "name": "Name",
-          "price": "Price",
-          "quantity": "Qty.",
-          "total": "Total"
+          "name": "名称",
+          "price": "价格",
+          "quantity": "数量.",
+          "total": "总计"
         }
       }
     },
     "dialogs": {
       "carts-delete": {
-        "title": "Delete confirmation",
-        "message": "Are you sure you want to delete selected Carts?"
+        "title": "确认删除",
+        "message": "您确定要删除选定的商品吗?"
       },
       "cart-save": {
-        "title": "Save changes",
-        "message": "The cart has been modified. Do you want to save changes?"
+        "title": "保存更改",
+        "message": "购物车已修改，您确定保存此修改吗?"
       }
     },
-    "commands": {
-      "open-in-store": "Open in Store"
-    }
+    "commands": { "open-in-store": "打开商店" }
   }
 }

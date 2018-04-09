@@ -1,218 +1,241 @@
 ﻿{
     "core": {
-        "commands": {
-            "apply-filter": "Save & apply"
+      "commands": {
+        "apply-filter": "应用",
+        "rebuild-index": "重建索引"
+      },
+      "main-menu-title": { "search-index": "检索" },
+      "blades": {
+        "index-progress": {
+          "labels": {
+            "start": "开始",
+            "end": "结束",
+            "errors": "错误",
+            "stats": "已完成 - {{ processedCount }} / {{ totalCount }} 个文档的索引"
+          }
         },
-        "main-menu-title": "Shopping carts",
-        "blades": {
-            "address-list": {
-                "labels": {
-                    "no-addresses": "No Addresses yet"
-                }
-            },
-            "address-detail": {
-                "subtitle": "Edit address",
-                "labels": {
-                    "address-type": "Address type",
-                    "first-name": "First name",
-                    "last-name": "Last name",
-                    "country": "Country",
-                    "region": "Region",
-                    "city": "City",
-                    "address": "Address",
-                    "zip-code": "Zip code",
-                    "email": "Email",
-                    "phone": "Phone"
-                },
-                "placeholders": {
-                    "address-type": "Select...",
-                    "first-name": "Enter value",
-                    "last-name": "Enter value",
-                    "country": "Select...",
-                    "region": "Enter region",
-                    "city": "Enter city",
-                    "address1": "Enter address line 1",
-                    "address2": "Enter address line 2",
-                    "zip-code": "Enter postal code",
-                    "email": "Enter value",
-                    "phone": "Enter phone number"
-                }
-            },
-            "currency-list": {
-                "title": "Currencies",
-                "subtitle": "Manage system currencies",
-                "labels": {
-                    "exchange-rate": "Exchange rate:",
-                    "no-currencies": "No currencies"
-                }
-            },
-            "currency-detail": {
-                "new-title": "New currency",
-                "new-subtitle": "Enter currency details",
-                "subtitle": "Edit currency details",
-                "labels": {
-                    "code": "Code",
-                    "name": "Name",
-                    "is-primary": "Is primary",
-                    "exchange-rate": "Exchange rate",
-                    "symbol": "Symbol",
-                    "custom-formatting": "Currency custom formatting"
-                },
-                "placeholders": {
-                    "symbol": "Enter symbol or leave empty for culture default"
-                }
-            },
-            "fulfillment-center-contact": {
-                "labels": {
-                    "country": "Country",
-                    "region": "Region",
-                    "city": "City",
-                    "address": "Address",
-                    "zip-code": "Zip code",
-                    "phone": "Phone"
-                },
-                "placeholders": {
-                    "country": "Select...",
-                    "region": "Enter region",
-                    "city": "Enter city",
-                    "address1": "Enter address line 1",
-                    "address2": "Enter address line 2",
-                    "zip-code": "Enter postal code",
-                    "phone": "Enter phone number"
-                }
-            },
-            "fulfillment-center-detail": {
-                "subtitle": "Edit Fulfillment center",
-                "labels": {
-                    "name": "Name",
-                    "description": "Description",
-                    "max-releases": "Max. releases per pick batch",
-                    "pick-delay": "Pick delay"
-                }
-            },
-            "fulfillment-center-list": {
-                "title": "Fulfillment centers",
-                "subtitle": "Manage Fulfillment centers"
-            },
-            "seo-list": {
-                "subtitle": "Manage SEOs",
-                "labels": {
-                    "duplicates-found": "There are {{count}} conflicting Semantic URLs!",
-                    "resolve-duplicates": "Resolve conflicts",
-                    "language-code": "Language",
-                    "container": "Store",
-                    "semanticUrl": "Semantic URL"
-                }
-            },
-            "seo-detail": {
-                "title-new": "New SEO",
-                "subtitle": "SEO details",
-                "labels": {
-                    "is-active": "Is active",
-                    "store": "Store",
-                    "language": "Language",
-                    "url-keyword": "URL keyword",
-                    "page-title": "Page title",
-                    "meta-description": "Meta description",
-                    "alternative-text": "Image alternative text"
-                },
-                "placeholders": {
-                    "store": "Select Store",
-                    "language": "Select Language",
-                    "url-keyword": "Enter keyword",
-                    "page-title": "Enter title",
-                    "meta-description": "Enter description",
-                    "alternative-text": "Enter text"
-                },
-                "validations": {
-                    "url-keyword-required": "Required",
-                    "url-keyword-invalid": "Invalid characters in URL found",
-                    "url-keyword-duplicate": "Duplicate URL found"
-                }
-            },
-            "seo-duplicates": {
-                "subtitle": "SEO conflicts",
-                "labels": {
-                    "semanticUrl": "Semantic URL",
-                    "container": "Store"
-                }
-            },
-            "package-type-list": {
-                "title": "Predefined package size dimensions",
-                "subtitle": "Manage system packages types",
-                "labels": {
-                    "no-packages": "No predefined packages"
-                }
-            },
-            "package-type-detail": {
-                "new-title": "New package type",
-                "new-subtitle": "Enter package size values",
-                "subtitle": "Edit package size details",
-                "labels": {
-                    "name": "Package type name",
-                    "name-description": "will be used for identification",
-                    "name-placeholder": "Enter package type name",
-                    "measureUnit": "Measure unit",
-                    "measureUnit-description": "will be used as primary measure unit for sizes",
-                    "measureUnit-placeholder": "Choose measure unit or define new",
-                    "width": "Width",
-                    "height": "Height",
-                    "length": "Length"
-                }
-            }
+        "index-detail": {
+          "title": "检索",
+          "title-new": "索引丢失",
+          "subtitle": "索引详情",
+          "labels": {
+            "no-index": "未发现索引",
+            "build-date": "上次索引时间",
+            "content": "索引内容"
+          }
         },
-        "dialogs": {
-            "address-delete": {
-                "title": "Delete confirmation",
-                "message": "Are you sure you want to delete this Address?"
-            },
-            "address-save": {
-                "title": "Save changes",
-                "message": "The Address has been modified. Do you want to save changes?"
-            },
-            "currency-delete": {
-                "title": "Delete confirmation",
-                "message": "Are you sure you want to delete this Currency?"
-            },
-            "currency-save": {
-                "title": "Save changes",
-                "message": "The Currency has been modified. Do you want to save changes?"
-            },
-            "fulfillment-delete": {
-                "title": "Delete confirmation",
-                "message": "Are you sure you want to delete this Fulfillment center?"
-            },
-            "fulfillments-save": {
-                "title": "Save changes",
-                "message": "The fulfillments has been modified. Do you want to save changes?"
-            },
-            "seo-save": {
-                "title": "Save changes",
-                "message": "The SEO information has been modified. Do you want to save changes?"
-            },
-            "package-type-save": {
-                "title": "Save changes",
-                "message": "The package type information has been modified. Do you want to save changes?"
-            },
-            "package-type-delete": {
-                "title": "Delete confirmation",
-                "message": "Are you sure you want to delete this package type?"
-            }
+        "address-list": { "labels": { "no-addresses": "没有地址呢" } },
+        "address-detail": {
+          "subtitle": "编辑地址",
+          "labels": {
+            "address-type": "地址类型",
+            "first-name": "名",
+            "last-name": "姓",
+            "country": "国",
+            "region": "省",
+            "city": "市",
+            "address1": "请输入详细地址1",
+            "address2": "请输入详细地址2",
+            "zip-code": "邮政编码",
+            "email": "Email",
+            "phone": "手机号码"
+          },
+          "placeholders": {
+            "address-type": "请选择...",
+            "country": "请选择国家..."
+          }
         },
-        "widgets": {
-            "currency": {
-                "title": "Currencies"
-            },
-            "fulfillmentCenterContact": {
-                "blade-subtitle": "Contact information",
-                "title": "Contact information"
-            },
-            "fulfillment": {
-                "title": "Fulfillment centers"
-            },
-            "seo": {
-                "title": "SEO"
-            }
+        "currency-list": {
+          "title": "货币",
+          "subtitle": "管理系统货币",
+          "labels": {
+            "exchange-rate": "汇率:",
+            "no-currencies": "暂无货币"
+          }
+        },
+        "currency-detail": {
+          "new-title": "新的货币",
+          "new-subtitle": "输入货币明细",
+          "subtitle": "编辑货币明细",
+          "labels": {
+            "code": "代码",
+            "name": "名称",
+            "is-primary": "主货币",
+            "exchange-rate": "汇率",
+            "symbol": "符号",
+            "custom-formatting": "货币的自定义格式"
+          },
+          "placeholders": { "symbol": "请输入符号或者留空" }
+        },
+        "fulfillment-center-contact": {
+          "labels": {
+            "country": "国",
+            "region": "省",
+            "city": "市",
+            "address": "地址",
+            "zip-code": "邮政编码",
+            "phone": "手机号码"
+          },
+          "placeholders": {
+            "country": "请选择...",
+            "region": "请输入省",
+            "city": "请输入市",
+            "address1": "请输入详细地址1",
+            "address2": "请输入详细地址2",
+            "zip-code": "请输入邮政编码",
+            "phone": "请输入手机号码"
+          }
+        },
+        "fulfillment-center-detail": {
+          "subtitle": "编辑配送中心",
+          "labels": {
+            "name": "名称",
+            "description": "描述",
+            "max-releases": "每批次的最大发货量",
+            "pick-delay": "选择延时"
+          }
+        },
+        "fulfillment-center-list": {
+          "title": "配送中心列表",
+          "subtitle": "管理配送中心列表"
+        },
+        "seo-list": {
+          "subtitle": "管理SEO",
+          "labels": {
+            "duplicates-found": "共有 {{count}} 条冲突的友好URL!",
+            "resolve-duplicates": "解决冲突",
+            "language-code": "语言",
+            "container": "商店",
+            "semanticUrl": "友好URL"
+          }
+        },
+        "seo-detail": {
+          "title-new": "新的SEO",
+          "subtitle": "SEO明细",
+          "labels": {
+            "is-active": "启用",
+            "store": "商店",
+            "language": "语言",
+            "url-keyword": "URL 关键字",
+            "page-title": "网页标题",
+            "meta-description": "页面描述",
+            "alternative-text": "图像替代文字"
+          },
+          "placeholders": {
+            "store": "选择商店",
+            "language": "选择语言",
+            "url-keyword": "请输入关键字",
+            "page-title": "请输入标题",
+            "meta-description": "请输入描述",
+            "alternative-text": "请输入替代文本"
+          },
+          "validations": {
+            "url-keyword-required": "必填",
+            "url-keyword-invalid": "URL存在无效字符",
+            "url-keyword-duplicate": "URL重复"
+          }
+        },
+        "seo-duplicates": {
+          "subtitle": "SEO冲突",
+          "labels": {
+            "semanticUrl": "友好URL",
+            "container": "商店"
+          }
+        },
+        "package-type-list": {
+          "title": "预定义的包裹尺寸",
+          "subtitle": "管理包裹类型",
+          "labels": { "no-packages": "暂无预定义的包裹" }
+        },
+        "package-type-detail": {
+          "new-title": "新建包裹",
+          "new-subtitle": "编辑包裹类型",
+          "subtitle": "编辑包裹尺寸",
+          "labels": {
+            "name": "包裹类型名称",
+            "name-description": "将被作为识别号",
+            "name-placeholder": "请输入包裹类型名称",
+            "measureUnit": "计量单位",
+            "measureUnit-description": "尺寸的计量单位",
+            "measureUnit-placeholder": "选择已有的计量单位或者定义一个新的",
+            "width": "宽度",
+            "height": "高度",
+            "length": "长度"
+          }
+        },
+        "document-type-list": {
+          "title": "文档类型列表",
+          "labels": {
+            "document-type": "文档类型",
+            "indexed-docs-total": "文档数量",
+            "provider": "提供者",
+            "scope": "域",
+            "last-indexation-date": "上次索引时间：",
+            "build-index": "生成索引",
+            "rebuild-index": "重建索引"
+          }
         }
+      },
+      "dialogs": {
+        "reindex": {
+          "title": "生成索引",
+          "msg1": "更新索引的方式：",
+          "msg2": "创建：为所有数据生成索引",
+          "msg3": "删除 + 创建：先删除索引再全量创建，完成前无法提供查询服务。",
+          "index": "创建",
+          "reindex": "删除 + 创建"
+        },
+        "address-delete": {
+          "title": "确认删除",
+          "message": "您确定要删除这个地址吗？"
+        },
+        "address-save": {
+          "title": "保存更改",
+          "message": "该地址已修改。您想保存吗？"
+        },
+        "currency-delete": {
+          "title": "确认删除",
+          "message": "您确定要删除这个货币吗？"
+        },
+        "currency-save": {
+          "title": "保存更改",
+          "message": "该货币已被修改。您想保存吗？"
+        },
+        "fulfillment-delete": {
+          "title": "确认删除",
+          "message": "您确定删除此配送中心吗？"
+        },
+        "fulfillments-save": {
+          "title": "保存更改",
+          "message": "信息已更改，是否保存？"
+        },
+        "seo-save": {
+          "title": "保存更改",
+          "message": "该SEO信息已被修改。您想保存吗？"
+        },
+        "package-type-save": {
+          "title": "保存更改",
+          "message": "信息已更改，是否保存？"
+        },
+        "package-type-delete": {
+          "title": "确认删除",
+          "message": "您确定删除此包裹类型吗？"
+        }
+      },
+      "widgets": {
+        "index": {
+          "index-ok": "已索引 <span am-time-ago='indexDate'></span>",
+          "index-old": "已过期. 索引创建于 <span am-time-ago='indexDate'>",
+          "no-index": "索引丢失"
+        },
+        "currency": { "title": "货币" },
+        "fulfillmentCenterContact": {
+          "blade-subtitle": "联系信息",
+          "title": "联系信息"
+        },
+        "fulfillment": { "title": "配送中心列表" },
+        "seo": { "title": "SEO" }
+      }
     }
-}
+  }
+  

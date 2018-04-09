@@ -1,26 +1,26 @@
 ﻿{
     "searchApi": {
         "filter-labels": {
-            "filter-priceless": "Without price",
-            "filter-withPrice": "Has price defined",
-            "filter-priceRange": "Price between",
-            "filter-lowStock": "Low on stock",
-            "filter-notActive": "Not active",
-            "filter-new": "<strong>Add new filter</strong>",
-            "unnamed-filter": "Unnamed filter",
-            "inactive": "Inactive",
-            "picture": "Pic",
-            "name": "Name",
+            "filter-priceless": "未定义价格",
+            "filter-withPrice": "已定义价格",
+            "filter-priceRange": "价格位于",
+            "filter-lowStock": "低库存",
+            "filter-notActive": "未激活",
+            "filter-new": "<strong>新建过滤器</strong>",
+            "unnamed-filter": "未命名过滤器",
+            "inactive": "未激活",
+            "picture": "图片",
+            "name": "名称",
             "sku": "SKU"
         },
         "dialogs": {
             "reindex": {
-                "title": "Build Search Index",
-                "msg1": "Choose how to update the Search Index. Options:",
-                "msg2": "Build: Update by indexing just missing or outdated data.",
-                "msg3": "Delete + build: Current search index will be deleted and built from scratch. Note that there WON'T BE ANY SEARCH RESULTS until the build process finishes.",
-                "index": "Build",
-                "reindex": "Delete + build"
+                "title": "生成索引",
+                "msg1": "选择更新索引的方式。可用选项有：",
+                "msg2": "生成：仅更新缺失或者失效的数据。",
+                "msg3": "重建：删除当前索引，重新成功。 完成之前，无法提供搜索服务！",
+                "index": "生成",
+                "reindex": "重建"
             }
         }
     }
