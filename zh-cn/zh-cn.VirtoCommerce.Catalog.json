@@ -234,7 +234,7 @@
             "new-value": "新的值",
             "current-values": "当前值",
             "value": "值",
-            "alias": "Alias",
+            "alias": "别名",
             "language-edit": "编辑值",
             "language-add": "新的值"
           },
@@ -409,14 +409,14 @@
             "description": "请输入查询结果的可用值。留空时允许所有值"
           },
           "values-Range": {
-            "label": "Range bounds",
-            "placeholder": "Add number",
-            "description": "Bounds will be sorted automatically before saving. Ranges are constructed as follows: Under [bound 1], [bound 1] to [bound 2], ... , Over [bound N]"
+            "label": "范围界限",
+            "placeholder": "添加数字",
+            "description": "界限会自动排序。范围的结构为：Under [bound 1], [bound 1] to [bound 2], ... , Over [bound N]"
           },
           "values-PriceRange": {
-            "label": "Price range bounds",
-            "placeholder": "Add number",
-            "description": "Bounds will be sorted automatically before saving. Price ranges are constructed as follows: Under [bound 1], [bound 1] to [bound 2], ... , Over [bound N]"
+            "label": "价格范围界限",
+            "placeholder": "添加数字",
+            "description": "界限会自动排序。范围的结构为： Under [bound 1], [bound 1] to [bound 2], ... , Over [bound N]"
           }
         }
       },
@@ -439,12 +439,12 @@
           "title": "描述"
         },
         "itemAsset": {
-          "blade-subtitle": "item assets",
+          "blade-subtitle": "子项资源",
           "title": "资源"
         },
         "itemAssociations": {
-          "blade-subtitle": "Associations",
-          "title": "Associations"
+          "blade-subtitle": "关联",
+          "title": "关联"
         },
         "itemImage": {
           "blade-subtitle": "管理图片",
@@ -455,15 +455,15 @@
           "title": "属性"
         },
         "itemVariation": {
-          "blade-subtitle": "Item variations",
-          "title": "Variations"
+          "blade-subtitle": "子项变量",
+          "title": "变量"
         },
         "itemDimensions": {
-          "title": "Weight & Size",
-          "weight": "Weight",
-          "length": "Length",
-          "width": "Width",
-          "height": "Height"
+          "title": "重量与尺寸",
+          "weight": "重量",
+          "length": "长度",
+          "width": "宽度",
+          "height": "高度"
         }
       },
       "dialogs": {
@@ -482,78 +482,78 @@
           "warning": "警告：这个更改是永久性的，无法撤消。它可能导致数据丢失。",
           "message": "以下将被删除:",
           "instruction": "输入 'yes' 确认删除:",
-          "item": "{{count}} 子目录",
-          "category": "{{count}} Category(ies) and any content inside it",
-          "linked-item": "{{count}} Linked Item(s)",
-          "linked-category": "{{count}} Linked Category(ies)"
+          "item": "{{count}} 个子目录",
+          "category": "{{count}} 个分类",
+          "linked-item": "{{count}} 个关联子项",
+          "linked-category": "{{count}} 个关联分类"
         },
         "property-delete": {
-          "message": "Are you sure you want to delete Property {{name}}?",
-          "warning": "WARNING: this change is permanent and can't be undone afterwards. It can lead to data loss.",
-          "msg1": "Choose what to delete. Options:",
-          "msg2": "remove only Property metadata and preserve values in related objects;",
-          "msg3": "delete completely, with all related values.",
-          "shallow": "Metadata",
-          "full": "Completely"
+          "message": "您确定删除属性【{{name}}】吗？",
+          "warning": "警告：此操作无法撤销，可能导致数据丢失。",
+          "msg1": "请选择删除方式：",
+          "msg2": "仅删除属性元数据及相关对象中保存的值；",
+          "msg3": "彻底删除，包括所有关联的值。",
+          "shallow": "元数据",
+          "full": "全部"
         },
         "virtual-catalog-save": {
           "title": "保存更改",
-          "message": "The virtual catalog has been modified. Do you want to save changes?"
+          "message": "是否保存虚拟目录？"
         },
         "category-save": {
           "title": "保存更改",
-          "message": "The category has been modified. Do you want to save changes?"
+          "message": "是否保存分类？"
         },
         "item-save": {
           "title": "保存更改",
-          "message": "The item has been modified. Do you want to save changes?"
+          "message": "是否保存子项？"
         },
         "variation-delete": {
           "title": "确认删除",
-          "message": "Are you sure you want to delete selected Variations?"
+          "message": "是否确定删除所选变量？"
         },
         "property-save": {
           "title": "保存更改",
-          "message": "The property has been modified. Do you want to save changes?"
+          "message": "是否保存属性？"
         },
-        "item-property-delete": { "message": "Are you sure you want to delete Property {{name}}?" },
+        "item-property-delete": { "message": "是否确定删除属性【{{name}}】？" },
         "dictionary-values-delete": {
           "title": "确认删除",
-          "message": "Are you sure you want to delete selected dictionary values?"
+          "message": "是否确定删除所选的字典？"
         },
         "review-save": {
           "title": "保存更改",
-          "message": "The description has been modified. Do you want to save changes?"
+          "message": "是否保存描述信息？"
         },
         "review-delete": {
           "title": "确认删除",
-          "message": "Are you sure you want to delete this description?"
+          "message": "是否删除此描述？"
         },
         "association-delete": {
           "title": "确认删除",
-          "message": "Are you sure you want to delete selected Associations?"
+          "message": "是否删除所选的关联项？"
         },
         "attribut-delete": {
           "title": "确认删除",
-          "message": "Are you sure you want to delete selected attributes?"
+          "message": "是否确定删除所选的属性？"
         },
         "image-save": {
-          "title": "确认删除",
-          "message": "The images has been modified. Do you want to save changes?"
+          "title": "确认保存",
+          "message": "是否保存图片？"
         },
         "asset-save": {
           "title": "保存更改",
-          "message": "The assets has been modified. Do you want to save changes?"
+          "message": "是否保存资源？"
         },
         "language-save": {
           "title": "保存更改",
-          "message": "The Languages has been modified. Do you want to save changes?"
+          "message": "是否保存语言？"
         }
       },
       "wizards": {
         "category": {
-          "title": "New category",
-          "subtitle": "Fill category information",
+          "title": "新建分类",
+          "subtitle": "完善分类信息",
           "labels": {
             "name": "名称",
             "code": "代码"
@@ -571,14 +571,14 @@
             "sku": "SKU",
             "name": "名称",
             "fill-properties": "填写属性",
-            "fill-properties-summary": "{{ count }} of {{total}} properties filled",
+            "fill-properties-summary": "{{ count }} / {{total}} 项属性已完成",
             "upload-images": "上传图片",
-            "upload-images-summary": "{{ count }} image(s) uploaded",
+            "upload-images-summary": "已上传 {{ count }} 张图片",
             "add-review": "添加描述",
-            "add-review-summary": "{{ count }} description(s) added",
+            "add-review-summary": "已添加 {{ count }} 项描述",
             "seo-information": "定义SEO信息",
-            "seo-information-summary-defined": "Seo information defined",
-            "seo-information-summary-undefined": "Seo information undefined"
+            "seo-information-summary-defined": "已定义SEO信息",
+            "seo-information-summary-undefined": "未定义SEO信息"
           },
           "validations": {
             "sku": "SKU 不能包含 $+;=%{}[]|/@ ~!^*&()?:'<>, 等特殊字符",
@@ -586,20 +586,20 @@
             "name-required": "必填"
           },
           "placeholders": {
-            "name": "Enter item name",
-            "sku": "Enter item sku"
+            "name": "请输入名称",
+            "sku": "请输入SKU"
           }
         },
         "new-variation": {
-          "title": "New variation",
-          "subtitle": "Fill variation information",
+          "title": "新建变量",
+          "subtitle": "完善变量信息",
           "labels": {
             "sku": "SKU",
             "name": "名称",
             "fill-properties": "填写属性",
-            "fill-properties-summary": "{{ count }} of {{total}} properties filled",
+            "fill-properties-summary": "已填写 {{ count }} / {{total}} 项属性",
             "upload-images": "上传图片",
-            "upload-images-summary": "{{ count }} image(s) uploaded"
+            "upload-images-summary": "已上传 {{ count }} 张图片"
           },
           "validations": {
             "sku": "SKU 不能包含 $+;=%{}[]|/@ ~!^*&()?:'<>, 等特殊字符",
@@ -607,41 +607,41 @@
             "name-required": "必填"
           },
           "placeholders": {
-            "name": "Enter item name",
-            "sku": "Enter item sku"
+            "name": "请输入名称",
+            "sku": "请输入SKU"
           }
         },
-        "item-images": { "subtitle": "item images" },
+        "item-images": { "subtitle": "子项图片" },
         "association": {
-          "title": "New Association",
+          "title": "新建关联",
           "labels": {
             "group-name": "组名",
-            "tags": "Tags",
-            "tags-placeholder": "Enter tags...",
-            "quantity": "Quantity",
-            "items": "Items",
-            "products-selected": "product(s) selected",
-            "categories-selected": "categories selected"
+            "tags": "标签",
+            "tags-placeholder": "请输入标签...",
+            "quantity": "数量",
+            "items": "子项",
+            "products-selected": "已选择产品",
+            "categories-selected": "已选择分类"
           },
           "placeholders": {
             "group-name": "请选择...",
-            "quantity": "Enter quantity..."
+            "quantity": "请输入数量..."
           }
         }
       },
       "commands": {
         "clear-all": "清除所有",
         "add-property": "添加属性",
-        "gallery": "Gallery",
+        "gallery": "图库",
         "map": "地图",
-        "open-item": "Open item"
+        "open-item": "打开"
       },
       "permissions": {
         "catalog-scope": {
-          "title": "Only for selected catalogs",
+          "title": "仅对已选择的目录",
           "blade": { "subtitle": "选择目录" }
         },
-        "category-scope": { "title": "Only for selected categories" }
+        "category-scope": { "title": "仅对已选择的分类" }
       }
     }
   }
