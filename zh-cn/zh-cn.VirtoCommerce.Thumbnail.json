@@ -1,0 +1,129 @@
+{
+    "imageTools": {
+        "main-menu-title": "缩略图",
+      "blades": {
+        "tasks-list": {
+          "title": "缩略图生成任务列表",
+          "subtitle": "缩略图生成任务列表",
+          "labels": {
+            "task-name": "任务名称",
+            "last-run": "上次运行"
+          }
+        },
+        "task-detail": {
+          "title": "缩略图生成任务详情",
+          "subtitle": "管理任务的设置与详情",
+          "labels": {
+            "name": "名称",
+            "path-images": "图片路径",
+            "thumbnail-settings": "缩略图设置"
+          },
+          "placeholders": {
+            "name": "请输入名称",
+            "path-images": "请选择图片路径",
+            "thumbnail-settings": "请选择设置..."
+          },
+          "descriptions": {
+            "name": "任务名称",
+            "path-images": "图片资源根目录。此目录下的所有图片都会被处理。",
+            "thumbnail-settings": "缩略图分辨率列表"
+          }
+        },
+        "task-run": {
+          "labels": {
+            "start": "开始",
+            "end": "结束",
+            "stats": "已完成 — {{ processedCount }} / {{ totalCount }} 张图片",
+            "errors": "错误"
+          }
+        },
+        "setting-managment": {
+          "title": "缩略图设置",
+          "subtitle": "管理缩略图设置",
+          "background": "背景色",
+          "height": "高度",
+          "width": "宽度",
+          "no-settings": "未设置"
+        },
+        "setting-detail": {
+          "title": "缩略图选项",
+          "subtitle": "管理缩略图选项",
+          "labels": {
+            "name": "名称",
+            "file-suffix": "缩略图文件名称后缀",
+            "resize-method": "调整尺寸方式",
+            "width": "宽度 (px)",
+            "height": "高度 (px)",
+            "background-color": "背景色",
+            "anchor-position": "锚点位置"
+          },
+          "placeholders": {
+            "name": "请输入选项名称",
+            "file-suffix": "请输入名称后缀",
+            "width": "请输入宽度",
+            "height": "请输入高度",
+            "background-color": "请输入背景色"
+          },
+          "discription": {
+            "name": "设置项名称",
+            "file-suffix": "文件名后缀将被添加到原始文件名之后，用'_'连接",
+            "resize-method": "图片转换时调整尺寸的方式",
+            "width": "缩略图宽度(px)",
+            "height": "缩略图高度(px)",
+            "background-color": "缩略图背景，如：#FFFFFF",
+            "anchor-position": "裁剪图片时的锚点位置"
+          },
+          "resize-method": {
+            "fixed-size": "固定尺寸",
+            "fixed-width": "固定宽度",
+            "fixed-height": "固定高度",
+            "crop": "裁剪"
+          },
+          "anchor-position": {
+            "top-left": "左上",
+            "top-center": "中上",
+            "top-right": "右上",
+            "center-left": "左中",
+            "center": "中心",
+            "center-right": "右中",
+            "bottom-left": "左下",
+            "bottom-center": "下中",
+            "bottom-right": "右下"
+          } 
+        }
+      },
+        "dialogs": {
+            "task-run": {
+                "title": "生成缩略图",
+                "msg1": "生成选项：",
+                "msg2": "处理新增：仅处理新增的图片",
+                "msg3": "处理所有：删除已有缩略图，重新处理所有图片",
+                "btn-changes": "处理新增",
+                "btn-regenerate": "处理所有"
+            },
+            "select-folder": {
+                "title": "缩略图路径",
+                "msg1": "选择一个文件目录"
+            }, 
+            "task-save": {
+                "title": "保存",
+                "message": "任务已更新。是否保存？"
+            },
+            "task-delete": {
+                "title": "删除信",
+                "message": "是否确定删除此任务？"
+            },
+            "setting-save": {
+                "title": "保存",
+                "message": "设置已变更。是否保存？"
+            },
+            "setting-delete": {
+                "title": "删除",
+                "message": "是否确定删除此设置？"
+            }
+        },
+        "commands": {
+            "run": "运行" 
+        } 
+    }
+}

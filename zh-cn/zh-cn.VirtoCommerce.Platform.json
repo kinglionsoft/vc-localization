@@ -1,735 +1,759 @@
 ﻿{
-    "platform": {
-        "menu": {
-            "home": "首页",
-            "browse": "功能",
-            "configuration": "配置",
-            "notifications": "消息中心",
-            "more": "更多",
-            "settings": "设置",
-            "dynamic-properties": "动态属性",
-            "security": "安全",
-            "modules": "模块",
-            "export-import": "导出导入",
-            "user-profile": "用户配置",
-            "assets": "资源",
-            "toggle-favorites": "点击星号加入快捷菜单"
-        },
-        "navigation": {
-            "back": "返回",
-            "bread-crumb-top": "所有"
-        },
-        "blades": {
-            "asset-list": {
-                "title": "资源管理",
-                "labels": {
-                    "picture": "图片",
-                    "name": "名称",
-                    "size": "大小",
-                    "modified": "修改于",
-                    "actions": "操作"
-                }
-            },
-            "asset-upload": {
-                "title": "资源上传",
-                "labels": {
-                    "select-files": "选择文件",
-                    "drag-note": "将文件拖放到这里",
-                    "progress": "进度",
-                    "asset-uploaded": "资源上传完毕."
-                },
-                "placeholders": {
-                    "image-url": "将文件URL粘贴在这里"
-                }
-            },
-            "operation-list": {
-                "labels": {
-                    "login": "登录",
-                    "details": "详细信息",
-                    "time": "时间"
-                }
-            },
-            "dynamicObject-list": {
-                "title": "动态对象类型",
-                "subtitle": "选择对象类型来管理动态属性",
-                "labels": {
-                    "no-objects": "没有对象支持动态属性。"
-                }
-            },
-            "dynamicProperty-detail": {
-                "title": "管理属性",
-                "subtitle": "管理属性",
-                "subtitle-new": "新建属性",
-                "labels": {
-                    "property-name": "属性名称",
-                    "required": "必填",
-                    "multivalue": "多值",
-                    "multilingual": "多语言",
-                    "dictionary": "字典",
-                    "description": "描述",
-                    "display-name": "显示名称",
-                    "value-type": "值类型",
-                    "dictionary-values": "字典的值",
-                    "manage-dictionary": "管理字典"
-                },
-                "placeholders": {
-                    "description": "请输入属性的描述文字",
-                    "display-name": "请输入显示名称..."
-                },
-                "validations": {
-                    "multivalue": "多值属性只能是ShortText、 Integer或者Decimal",
-                    "multilingual": "仅text或者HTML的值可以设置为多语种",
-                    "dictionary": "仅支持ShortText类型的字典"
-                }
-            },
-            "dynamicProperty-list": {
-                "subtitle": "管理动态属性",
-                "labels": {
-                    "no-properties": "没有动态属性。"
-                }
-            },
-            "property-dictionary": {
-                "title": "字典内容",
-                "subtitle": "管理字典内容",
-                "labels": {
-                    "edit-value": "编辑值",
-                    "new-value": "新的值",
-                    "dictionary-name": "字典名称",
-                    "localized-values": "本地化值",
-                    "current-values": "当前值",
-                    "name": "名称",
-                    "values": "值"
-                },
-                "validations": {
-                    "dictionary-name-required": "必填",
-                    "dictionary-name": "名称重复",
-                    "localized-values-required": "必填",
-                    "localized-values": "名称重复",
-                    "dictionary": "仅支持ShortText类型的字典."
-                },
-                "placeholders": {
-                    "dictionary-name": "请输入名称",
-                    "localized-values": "请输入值"
-                }
-            },
-            "property-valueType": {
-                "title": "Dynamic Property value type",
-                "subtitle": "Change value type"
-            },
-            "propertyValue-list": {
-                "title": "属性值",
-                "subtitle": "编辑属性值",
-                "labels": {
-                    "no-properties": "当前项暂无动态属性。点击【管理属性】可以新建属性，关闭并重新打开当前项以生效。"
-                }
-            },
-            "export-main": {
-                "title": "数据导出",
-                "labels": {
-                    "select-file": "Select file to import",
-                    "platform-entries": "平台项",
-                    "choose-modules": "选择导出模块",
-                    "download-url": "下载链接",
-                    "errors": "错误",
-                    "start-export": "开始导出",
-                    "start": "开始",
-                    "end": "结束"
-                },
-                "menu": {
-                    "security": {
-                        "title": "安全",
-                        "description": "帐号和角色"
-                    },
-                    "binary": {
-                        "title": "二进制",
-                        "description": "二进制数据"
-                    },
-                    "settings": {
-                        "title": "设置",
-                        "description": "平台设置"
-                    }
-                }
-            },
-            "import-main": {
-                "title": "数据导入",
-                "labels": {
-                    "start-import": "开始导入",
-                    "select-file": "选择导入文件",
-                    "upload-progress": "上传进度",
-                    "import-data-information": "导入数据信息",
-                    "author": "作者",
-                    "data-file-created": "数据文件已创建",
-                    "created-platform-version": "创建于平台版本",
-                    "platform-entries": "平台项",
-                    "choose-modules": "选择导入模块",
-                    "no-data": "没有数据",
-                    "errors": "错误",
-                    "start": "开始",
-                    "end": "结束"
-                },
-                "menu": {
-                    "security": {
-                        "title": "安全",
-                        "description": "帐号和角色"
-                    },
-                    "binary": {
-                        "title": "Binary",
-                        "description": "二进制数据"
-                    },
-                    "settings": {
-                        "title": "设置",
-                        "description": "平台设置"
-                    }
-                }
-            },
-            "exportImport-main": {
-                "title": "数据导出和导入",
-                "menu": {
-                    "export": {
-                        "title": "导出",
-                        "description": "数据将被保存到一个文件中，这样就可以在以后将数据导入。"
-                    },
-                    "import": {
-                        "title": "导入",
-                        "description": "从导出文件导入数据。"
-                    }
-                }
-            },
-            "notification-journal-details": {
-                "title": "通知明细",
-                "labels": {
-                    "notification-info": "通知信息",
-                    "display-name": "显示名称",
-                    "source": "来源",
-                    "sending-gateway": "发送网关",
-                    "active": "启用",
-                    "not-active": "禁用",
-                    "start-sending-date": "开始发送日期",
-                    "sent-success": "发送成功",
-                    "not-sent": "未发送",
-                    "sent": "已发送",
-                    "sent-date": "发送日期",
-                    "sender": "发件人",
-                    "recipient": "收件人",
-                    "sending-attempts-count": "发送尝试次数",
-                    "last-fail-attempt-date": "最后失败的尝试日期",
-                    "last-fail-attempt-message": "最后失败的尝试信息"
-                }
-            },
-            "notifications-edit-template": {
-                "title": "编辑通知模版",
-                "title-new": "创建通知模板",
-                "labels": {
-                    "note": "这是通知参数列表。您可以将此代码和参数的值粘贴在模板中",
-                    "parameter-name": "参数名称",
-                    "parameter-description": "参数描述",
-                    "paremeter-code": "模板中的参数代码（复制下面的代码，在您的模板的任何地方插入）",
-                    "language": "语言",
-                    "blank-note": "留空则使用默认值",
-                    "sender": "发送人",
-                    "recipient": "接收人",
-                    "subject": "主题",
-                    "body": "内容"
-                },
-                "placeholders": {
-                    "language": "请选择..."
-                }
-            },
-            "notifications-menu": {
-                "subtitle": "消息通知系统"
-            },
-            "notification-templates-list": {
-                "title": "通知模板",
-                "labels": {
-                    "subject": "主题",
-                    "body": "内容",
-                    "language": "语言"
-                }
-            },
-            "notifications-test-resolve": {
-                "title": "预览通知",
-                "subtitle": "请输入【{{type}}】的测试数据",
-                "labels": {
-                    "test": "测试",
-                    "enter-test-data": "请输入测试数据"
-                }
-            },
-            "notifications-test-send": {
-                "title": "发送通知",
-                "subtitle": "请输入【{{type}}】的测试数据",
-                "labels": {
-                    "send": "发送",
-                    "enter-test-data": "请输入测试数据"
-                }
-            },
-            "notifications-journal": {
-                "title": "发送日志",
-                "subtitle": "营销服务",
-                "labels": {
-                    "display-name": "显示名称",
-                    "recipient": "收件人",
-                    "sent-date": "发送日期",
-                    "channel": "渠道",
-                    "error": "错误",
-                    "processing": "处理中",
-                    "success": "成功",
-                    "no-notifications": "没有通知信息"
-                }
-            },
-            "notifications-list": {
-                "title": "通知",
-                "subtitle": "营销服务",
-                "labels": {
-                    "no-notifications": "没有注册通知信息"
-                }
-            },
-            "resolve-result": {
-                "title": "预览结果",
-                "labels": {
-                    "subject": "主题",
-                    "body": "Body"
-                }
-            },
-            "module-settings-detail": {
-                "title": "模块设置"
-            },
-            "module-wizard-progress-step": {
-                "title-install": "安装模块",
-                "title-update": "更新模块",
-                "title-uninstall": "卸载模块",
-                "labels": {
-                    "start": "开始",
-                    "end": "结束",
-                    "progress-messages": "进度消息",
-                    "process-completed": "模块安装完成。",
-                    "restart-application": "现在或稍后重新启动应用程序。"
-                }
-            },
-            "module-detail": {
-                "title": "模块信息",
-                "labels": {
-                    "i-accept-the": "我接受",
-                    "license-link": "许可证",
-                    "license": "许可证",
-                    "agreement": "协议",
-                    "install-from-file": "从文件中安装或者更新模块",
-                    "select-module-file": "选择模块文件",
-                    "upload-progress": "上传进度",
-                    "module-info": "模块信息",
-                    "title": "标题",
-                    "author": "作者",
-                    "authors": "作者",
-                    "id": "ID",
-                    "version": "版本",
-                    "project-information": "项目信息",
-                    "description": "描述",
-                    "platform-version": "平台版本",
-                    "dependencies": "依赖",
-                    "tags": "标签",
-                    "install-version": "版本",
-                    "errors": "错误"
-                }
-            },
-            "modules-main": {
-                "title": "模块",
-                "labels": {
-                    "updates": "更新",
-                    "available": "可用",
-                    "installed": "已安装",
-                    "withErrors": "出错",
-                    "advanced": "高级项"
-                }
-            },
-            "modules-list": {
-                "subtitle": "管理已安装的模块",
-                "labels": {
-                    "grouping": "显示模块包",
-                    "ungrouped": "其它",
-                    "no-updates": "没有可用更新",
-                    "no-modules-part1": "未发现模块。 请检查模块所在的虚拟目录",
-                    "no-installed-modules": "未发现已安装的模块",
-                    "icon": "图标",
-                    "module": "模块",
-                    "version": "版本",
-                    "author": "作者"
-                }
-            },
-            "history": {
-                "title": "系统事件",
-                "subtitle": "事件历史",
-                "labels": {
-                    "type": "类型",
-                    "title": "标题",
-                    "created": "创建于"
-                }
-            },
-            "historyDetailDefault": {
-                "title": "事件详细信息",
-                "subtitle": "事件详情"
-            },
-            "menuHeader": {
-                "labels": {
-                    "history": "历史",
-                    "clear-recent": "清除"
-                }
-            },
-            "account-api": {
-                "title": "API密钥",
-                "title-new": "新的API密钥",
-                "labels": {
-                    "is-active": "启用",
-                    "key-name": "Key 名称",
-                    "key-type": "Key 类型",
-                    "secret-key": "密钥"
-                },
-                "placeholders": {
-                    "key-name": "请输入名称",
-                    "key-type": "请选择...",
-                    "secret-key": "生成密钥",
-                    "app-id": "生成..."
-                }
-            },
-            "account-api-list": {
-                "labels": {
-                    "is-active": "启用",
-                    "name": "名称"
-                }
-            },
-            "account-changePassword": {
-                "labels": {
-                    "current-password": "当前密码",
-                    "new-password": "新密码",
-                    "repeat-password": "重复密码"
-                },
-                "validations": {
-                    "current-password": "必填",
-                    "new-password": "旧密码和新密码是相同的！",
-                    "repeat-password": "新密码不匹配！"
-                },
-                "placeholders": {
-                    "current-password": "请输入当前密码",
-                    "new-password": "请输入新密码",
-                    "repeat-password": "请重复输入新密码"
-                }
-            },
-            "account-resetPassword": {
-                "subtitle": "修改您的密码",
-                "labels": {
-                    "new-password": "新密码",
-                    "repeat-password": "重复密码"
-                },
-                "validations": {
-                    "repeat-password": "新密码不匹配！"
-                },
-                "placeholders": {
-                    "new-password": "请输入新密码",
-                    "repeat-password": "请重复输入新密码"
-                }
-            },
-            "account-detail": {
-                "title-new": "新帐户",
-                "labels": {
-                    "user-information": "用户信息",
-                    "is-administrator": "是管理员",
-                    "account-type": "帐户类型",
-                    "login": "登录",
-                    "account-state": "帐户状态",
-                    "container-id": "容器 (店铺) ID"
-                },
-                "placeholders": {
-                    "account-type": "请选择..."
-                }
-            },
-            "account-list": {
-                "title": "用户",
-                "subtitle": "安全服务",
-                "labels": {
-                    "name": "名称",
-                    "account-type": "帐户类型",
-                    "login": "登录",
-                    "state": "状态"
-                }
-            },
-            "role-detail": {
-                "subtitle": "角色详情",
-                "labels": {
-                    "summary": "摘要",
-                    "name": "名称",
-                    "description": "描述",
-                    "assigned-permissions": "分配权限",
-                    "permission-name": "名称",
-                    "assigned-scopes": "指定的范围",
-                    "no-permissions-assigned": "没有权限可以分配。"
-                },
-                "placeholders": {
-                    "name": "请输入名称",
-                    "description": "请输入描述"
-                }
-            },
-            "account-roles": {
-                "subtitle": "分配角色",
-                "labels": {
-                    "select-roles": "选择分配的角色",
-                    "no-roles": "没有角色可以分配。"
-                }
-            },
-            "account-roles-list": {
-                "title": "",
-                "labels": {
-                    "assigned-roles": "分配角色",
-                    "no-assigned": "没有可分配的角色。"
-                }
-            },
-            "permission-scopes": {
-                "subtitle": "配置权限范围",
-                "labels": {
-                    "select-bounded-scopes": "选择选用范围",
-                    "selected": "选择",
-                    "scope-name": "范围名称及参数",
-                    "no-scopes": "暂无范围"
-                }
-            },
-            "role-permissions": {
-                "subtitle": "分配权限",
-                "labels": {
-                    "select-permissions": "选择分配的权限"
-                }
-            },
-            "new-role-wizard": {
-                "title": "新角色",
-                "labels": {
-                    "summary": "摘要",
-                    "name": "名称",
-                    "description": "描述",
-                    "assign-permissions": "分配权限"
-                },
-                "placeholders": {
-                    "name": "请输入名称",
-                    "description": "请输入描述"
-                }
-            },
-            "role-list": {
-                "title": "角色",
-                "subtitle": "安全服务",
-                "labels": {
-                    "name": "名称"
-                }
-            },
-            "login": {
-                "labels": {
-                    "sign-in": "后台登录",
-                    "login": "登录",
-                    "password": "密码",
-                    "remember-me": "记住我",
-                    "log-in": "登录"
-                }
-            },
-            "license": {
-                "title": "Current license",
-                "title-new": "New license activation",
-                "license-info": "License information",
-                "license-activation": "License activation",
-                "labels": {
-                    "info-running-no-license": "This instance of Virto Commerce is running on",
-                    "info-open-source-license": "Open Source Community license.",
-                    "info0": "Acquiring or renewing the license:",
-                    "info1": "Submit the ",
-                    "info2": "We'll process your request and should contact you soon.",
-                    "info3": "Once you receive the \"Activation Code\" and / or the License file, fill one of the activation fields below.",
-                    "info4": "The system will display you the new license information. Review it and click \"Activate\" to confirm.",
-                    "customer": "License issued to",
-                    "type": "Type",
-                    "expiration": "Expiration",
-                    "email": "Customer email",
-                    "request-license": "License request form.",
-                    "code-descr": "Enter the received license \"Activation Code\" and hit [Enter]. This is the quickest license activation method. (Requires internet connection)",
-                    "file-descr": "Optionally, provide the received License file. (Off-line activation)",
-                    "upload-progress": "Upload progress",
-                    "errors": "Activation error"
-                },
-                "placeholders": {
-                    "code": "Enter activation code"
-                }
-            },
-            "new-account-wizard": {
-                "labels": {
-                    "login": "登录",
-                    "password": "密码",
-                    "repeat-password": "重复密码",
-                    "assign-roles": "分配角色"
-                },
-                "placeholders": {
-                    "login": "请输入电子邮箱",
-                    "password": "请输入新密码",
-                    "repeat-password": "请重复输入新密码"
-                }
-            },
-            "security-main": {
-                "title": "安全",
-                "subtitle": "用户管理"
-            },
-            "entitySetting-list": {
-                "title": "设置"
-            },
-            "setting-dictionary": {
-                "subtitle": "管理字典的值",
-                "labels": {
-                    "new-value": "请输入值",
-                    "current-values": "当前值",
-                    "value": "值"
-                },
-                "validations": {
-                    "new-value-required": "必填",
-                    "new-value": "重复值"
-                },
-                "placeholders": {
-                    "new-value": "请输入值"
-                }
-            },
-            "settings-detail": {
-                "title": "设置值"
-            },
-            "settingGroup-list": {
-                "title": "设置"
-            },
-            "user-profile": {
-                "title": "用户配置",
-                "labels": {
-                    "set-language": "设置管理员语言"
-                }
-            }
-        },
-        "templates": {
-            "sampleDataChoose": {
-                "labels": {
-                    "choose-sample-data-type": "选择样本数据类型",
-                    "size": "大小",
-                    "version": "版本"
-                }
-            },
-            "sampleDataInitialization": {
-                "labels": {
-                    "sample-data-initialization": "样本数据初始化",
-                    "starting-initialization": "开始样本数据初始化...",
-                    "errors": "错误",
-                    "start": "开始",
-                    "end": "结束"
-                }
-            },
-            "licensing": {
-                "license-absent": "Community license",
-                "license-present": "{{type}} license",
-                "community": "Running community edition, click to request a commercial license.",
-                "expired": "You license has expired on {{expirationDate | amParse | date}}, please renew."
-            },
-            "modulesAutoInstallation": {
-                "labels": {
-                    "module-auto-installation": "自动安装模块",
-                    "loading": "检索模块信息...",
-                    "finished": "安装已完成。点击【重启】以继续。",
-                    "start": "开始",
-                    "end": "结束"
-                }
-            }
-        },
-        "widgets": {
-            "operations": {
-                "title": "修改",
-                "blade-subtitle": "修改历史"
-            },
-            "dynamicProperty": {
-                "title": "动态属性"
-            },
-            "entitySettings": {
-                "title": "设置"
-            },
-            "accountApi": {
-                "title": "API密钥",
-                "blade-subtitle": "API密钥"
-            },
-            "accountRoles": {
-                "title": "角色",
-                "blade-subtitle": "管理角色"
-            }
-        },
-        "dialogs": {
-            "folders-delete": {
-                "title": "确认删除",
-                "message": "您确定要删除选定的文件夹或文件吗？"
-            },
-            "properties-save": {
-                "title": "保存更改",
-                "message": "该属性已被修改。您想保存吗？"
-            },
-            "notification-template-save": {
-                "title": "保存更改",
-                "message": "该通知模板已被修改。您想保存吗？"
-            },
-            "role-save": {
-                "title": "保存更改",
-                "message": "该角色已被修改。您想保存吗？"
-            },
-            "roles-delete": {
-                "title": "确认删除",
-                "message": "您确定要删除选定的角色吗？"
-            },
-            "account-save": {
-                "title": "保存更改",
-                "message": "该帐户已被修改。您想保存吗？"
-            },
-            "account-delete": {
-                "title": "确认删除",
-                "message": "您确定要删除选定的帐户吗？"
-            },
-            "dynamic-property-delete": {
-                "title": "确认删除",
-                "message": "您确定要删除这个动态属性吗？"
-            },
-            "settings-value-delete": {
-                "title": "确认删除",
-                "message": "您确定要删除选定的值吗？"
-            },
-            "settings-save": {
-                "title": "保存更改",
-                "message": "该设置已被修改。您想保存吗？"
-            },
-            "settings-delete": {
-                "title": "确认删除",
-                "message": "该设置已被修改。您想保存吗？"
-            },
-            "email-sending-success": {
-                "title": "发送成功",
-                "message": "发送电子邮件成功！"
-            },
-            "email-send-error": {
-                "title": "发送出错",
-                "message": "电子邮件没有发送！"
-            },
-            "dictionary-items-delete": {
-                "title": "确认删除",
-                "message": "您确定要删除选定的{{quantity}}项字典项吗？"
-            },
-            "module-action": {
-                "title-install": "安装信息",
-                "title-update": "更新信息",
-                "title-delete": "卸载信息",
-                "message0-install": "即将安装：",
-                "message0-update": "即将更新：",
-                "message0-delete": "即将卸载：",
-                "message1-install": "以下依赖项也将被安装：",
-                "message1-delete": "以下依赖项也将被卸载：",
-                "message2-install": "是否安装所选项及其依赖项？",
-                "message2-update": "是否更新所选项及其依赖项？",
-                "message2-delete": "是否卸载所选项及其依赖项？"
-            },
-            "module-delete": {
-                "title": "确认删除",
-                "message": "您确定要卸载这个模块吗？"
-            },
-            "api-key-delete": {
-                "title": "确认删除",
-                "message": "您确定要删除这个API密钥吗？"
-            }
+  "platform": {
+    "menu": {
+      "home": "首页",
+      "browse": "功能",
+      "configuration": "配置",
+      "notifications": "消息中心",
+      "more": "更多",
+      "settings": "设置",
+      "dynamic-properties": "动态属性",
+      "security": "安全",
+      "modules": "模块",
+      "export-import": "导出导入",
+      "user-profile": "用户配置",
+      "assets": "资源",
+      "toggle-favorites": "点击星号加入快捷菜单"
+    },
+    "navigation": {
+      "back": "返回",
+      "bread-crumb-top": "所有"
+    },
+    "blades": {
+      "asset-list": {
+        "title": "资源管理",
+        "labels": {
+          "picture": "图片",
+          "name": "名称",
+          "size": "大小",
+          "modified": "修改于",
+          "actions": "操作",
+          "group": "Group",
+          "language": "Language"
         }
+      },
+      "asset-upload": {
+        "title": "资源上传",
+        "labels": {
+          "select-files": "选择文件",
+          "drag-note": "将文件拖放到这里",
+          "progress": "进度",
+          "asset-uploaded": "资源上传完毕."
+        },
+        "placeholders": { "image-url": "将文件URL粘贴在这里" }
+      },
+      "operation-list": {
+        "labels": {
+          "login": "登录",
+          "details": "详细信息",
+          "time": "时间"
+        }
+      },
+      "dynamicObject-list": {
+        "title": "动态对象类型",
+        "subtitle": "选择对象类型来管理动态属性",
+        "labels": { "no-objects": "没有对象支持动态属性。" }
+      },
+      "dynamicProperty-detail": {
+        "title": "管理属性",
+        "subtitle": "管理属性",
+        "subtitle-new": "新建属性",
+        "labels": {
+          "property-name": "属性名称",
+          "required": "必填",
+          "multivalue": "多值",
+          "multilingual": "多语言",
+          "dictionary": "字典",
+          "description": "描述",
+          "display-order": "排序",
+          "display-name": "显示名称",
+          "value-type": "值类型",
+          "dictionary-values": "字典的值",
+          "manage-dictionary": "管理字典"
+        },
+        "placeholders": {
+          "description": "请输入属性的描述文字",
+          "display-name": "请输入显示名称...",
+          "display-order": "排序"
+        },
+        "validations": {
+          "multivalue": "多值属性只能是ShortText、 Integer或者Decimal",
+          "multilingual": "仅text或者HTML的值可以设置为多语种",
+          "dictionary": "仅支持ShortText类型的字典"
+        }
+      },
+      "dynamicProperty-list": {
+        "subtitle": "管理动态属性",
+        "labels": { "no-properties": "没有动态属性。" }
+      },
+      "property-dictionary": {
+        "title": "字典内容",
+        "subtitle": "管理字典内容",
+        "labels": {
+          "edit-value": "编辑值",
+          "new-value": "新的值",
+          "dictionary-name": "字典名称",
+          "localized-values": "本地化值",
+          "current-values": "当前值",
+          "name": "名称",
+          "values": "值"
+        },
+        "validations": {
+          "dictionary-name-required": "必填",
+          "dictionary-name": "名称重复",
+          "localized-values-required": "必填",
+          "localized-values": "名称重复",
+          "dictionary": "仅支持ShortText类型的字典."
+        },
+        "placeholders": {
+          "dictionary-name": "请输入名称",
+          "localized-values": "请输入值"
+        }
+      },
+      "propertyValue-list": {
+        "title": "属性值",
+        "subtitle": "编辑属性值",
+        "labels": { "no-properties": "当前项暂无动态属性。点击【管理属性】可以新建属性，关闭并重新打开当前项以生效。" }
+      },
+      "export-main": {
+        "title": "数据导出",
+        "labels": {
+          "platform-entries": "平台项",
+          "choose-modules": "选择导出模块",
+          "download-url": "下载链接",
+          "errors": "错误",
+          "start-export": "开始导出",
+          "start": "开始",
+          "end": "结束"
+        },
+        "menu": {
+          "security": {
+            "title": "安全",
+            "description": "帐号和角色"
+          },
+          "binary": {
+            "title": "二进制",
+            "description": "二进制数据"
+          },
+          "settings": {
+            "title": "设置",
+            "description": "平台设置"
+          }
+        }
+      },
+      "import-main": {
+        "title": "数据导入",
+        "labels": {
+          "start-import": "开始导入",
+          "select-file": "选择导入文件",
+          "upload-progress": "上传进度",
+          "import-data-information": "导入数据信息",
+          "author": "作者",
+          "data-file-created": "数据文件已创建",
+          "created-platform-version": "创建于平台版本",
+          "platform-entries": "平台项",
+          "choose-modules": "选择导入模块",
+          "no-data": "没有数据",
+          "errors": "错误",
+          "start": "开始",
+          "end": "结束"
+        },
+        "menu": {
+          "security": {
+            "title": "安全",
+            "description": "帐号和角色"
+          },
+          "binary": {
+            "title": "Binary",
+            "description": "二进制数据"
+          },
+          "settings": {
+            "title": "设置",
+            "description": "平台设置"
+          }
+        }
+      },
+      "exportImport-main": {
+        "title": "数据导出和导入",
+        "menu": {
+          "export": {
+            "title": "导出",
+            "description": "数据将被保存到一个文件中，这样就可以在以后将数据导入。"
+          },
+          "import": {
+            "title": "导入",
+            "description": "从导出文件导入数据。"
+          }
+        }
+      },
+      "notification-journal-details": {
+        "title": "通知明细",
+        "labels": {
+          "notification-info": "通知信息",
+          "display-name": "显示名称",
+          "source": "来源",
+          "sending-gateway": "发送网关",
+          "active": "启用",
+          "not-active": "禁用",
+          "start-sending-date": "开始发送日期",
+          "sent-success": "发送成功",
+          "not-sent": "未发送",
+          "sent": "已发送",
+          "sent-date": "发送日期",
+          "sender": "发件人",
+          "recipient": "收件人",
+          "sending-attempts-count": "发送尝试次数",
+          "last-fail-attempt-date": "最后失败的尝试日期",
+          "last-fail-attempt-message": "最后失败的尝试信息"
+        }
+      },
+      "notifications-edit-template": {
+        "title": "编辑通知模版",
+        "title-new": "创建通知模板",
+        "labels": {
+          "note": "这是通知参数列表。您可以将此代码和参数的值粘贴在模板中",
+          "parameter-name": "参数名称",
+          "parameter-description": "参数描述",
+          "paremeter-code": "模板中的参数代码（复制下面的代码，在您的模板的任何地方插入）",
+          "language": "语言",
+          "blank-note": "留空则使用默认值",
+          "sender": "发送人",
+          "recipient": "接收人",
+          "subject": "主题",
+          "body": "内容"
+        },
+        "placeholders": { "language": "请选择..." }
+      },
+      "notifications-menu": { "subtitle": "消息通知系统" },
+      "notification-templates-list": {
+        "title": "通知模板",
+        "labels": {
+          "subject": "主题",
+          "body": "内容",
+          "language": "语言"
+        }
+      },
+      "notifications-test-resolve": {
+        "title": "预览通知",
+        "subtitle": "请输入【{{type}}】的测试数据",
+        "labels": {
+          "test": "测试",
+          "enter-test-data": "请输入测试数据"
+        }
+      },
+      "notifications-test-send": {
+        "title": "发送通知",
+        "subtitle": "请输入【{{type}}】的测试数据",
+        "labels": {
+          "send": "发送",
+          "enter-test-data": "请输入测试数据"
+        }
+      },
+      "notifications-journal": {
+        "title": "发送日志",
+        "subtitle": "营销服务",
+        "labels": {
+          "display-name": "显示名称",
+          "recipient": "收件人",
+          "sent-date": "发送日期",
+          "channel": "渠道",
+          "error": "错误",
+          "processing": "处理中",
+          "success": "成功",
+          "no-notifications": "没有通知信息"
+        }
+      },
+      "notifications-list": {
+        "title": "通知",
+        "subtitle": "营销服务",
+        "labels": { "no-notifications": "没有注册通知信息" }
+      },
+      "resolve-result": {
+        "title": "预览结果",
+        "labels": {
+          "subject": "主题",
+          "body": "Body"
+        }
+      },
+      "module-settings-detail": { "title": "模块设置" },
+      "module-wizard-progress-step": {
+        "title-install": "安装模块",
+        "title-update": "更新模块",
+        "title-uninstall": "卸载模块",
+        "labels": {
+          "start": "开始",
+          "end": "结束",
+          "progress-messages": "进度消息",
+          "process-completed": "模块安装完成。",
+          "restart-application": "现在或稍后重新启动应用程序。"
+        }
+      },
+      "module-detail": {
+        "title": "模块信息",
+        "labels": {
+          "i-accept-the": "我接受",
+          "license-link": "许可证",
+          "license": "许可证",
+          "agreement": "协议",
+          "install-from-file": "从文件中安装或者更新模块",
+          "select-module-file": "选择模块文件",
+          "upload-progress": "上传进度",
+          "module-info": "模块信息",
+          "title": "标题",
+          "official": "Official module by {{$owner}}",
+          "owners": "Developed by {{$owner}}",
+          "author": "作者",
+          "authors": "作者",
+          "id": "ID",
+          "version": "版本",
+          "project-information": "项目信息",
+          "description": "描述",
+          "platform-version": "平台版本",
+          "dependencies": "依赖",
+          "tags": "标签",
+          "install-version": "版本",
+          "errors": "错误"
+        }
+      },
+      "modules-main": {
+        "title": "模块",
+        "labels": {
+          "updates": "更新",
+          "available": "可用",
+          "installed": "已安装",
+          "withErrors": "出错",
+          "advanced": "高级项"
+        }
+      },
+      "modules-list": {
+        "subtitle": "管理已安装的模块",
+        "labels": {
+          "grouping": "显示模块包",
+          "ungrouped": "其它",
+          "no-updates": "没有可用更新",
+          "no-modules-part1": "未发现模块。 请检查模块所在的虚拟目录",
+          "no-installed-modules": "未发现已安装的模块",
+          "icon": "图标",
+          "up-to-date": "模块已是最新版",
+          "update-available": "此模块有可用更新",
+          "module": "模块",
+          "version": "版本",
+          "author": "作者"
+        }
+      },
+      "history": {
+        "title": "系统事件",
+        "subtitle": "事件历史",
+        "labels": {
+          "type": "类型",
+          "title": "标题",
+          "created": "创建于"
+        }
+      },
+      "historyDetailDefault": {
+        "title": "事件详细信息",
+        "subtitle": "事件详情"
+      },
+      "menuHeader": {
+        "labels": {
+          "history": "历史",
+          "clear-recent": "清除"
+        }
+      },
+      "account-api": {
+        "title": "API密钥",
+        "title-new": "新的API密钥",
+        "labels": {
+          "is-active": "启用",
+          "account-name": "账户名称",
+          "account-type": "账户类型",
+          "app-id": "App ID",
+          "secret-key": "密钥"
+        },
+        "placeholders": {
+          "account-name": "请输入名称",
+          "account-type": "请选择...",
+          "secret-key": "生成密钥",
+          "app-id": "生成..."
+        }
+      },
+      "account-api-list": {
+        "labels": {
+          "is-active": "启用",
+          "name": "名称"
+        }
+      },
+      "account-changePassword": {
+        "labels": {
+          "current-password": "当前密码",
+          "new-password": "新密码",
+          "repeat-password": "重复密码"
+        },
+        "validations": {
+          "current-password": "必填",
+          "new-password": "旧密码和新密码是相同的！",
+          "repeat-password": "新密码不匹配！"
+        },
+        "placeholders": {
+          "current-password": "请输入当前密码",
+          "new-password": "请输入新密码",
+          "repeat-password": "请重复输入新密码"
+        }
+      },
+      "account-resetPassword": {
+        "subtitle": "修改您的密码",
+        "labels": {
+          "new-password": "新密码",
+          "repeat-password": "重复密码"
+        },
+        "validations": { "repeat-password": "新密码不匹配！" },
+        "placeholders": {
+          "new-password": "请输入新密码",
+          "repeat-password": "请重复输入新密码"
+        }
+      },
+      "account-detail": {
+        "title-new": "新帐户",
+        "labels": {
+          "user-information": "用户信息",
+          "is-administrator": "是管理员",
+          "account-type": "帐户类型",
+          "login": "登录",
+          "account-state": "帐户状态",
+          "account-email": "Email",
+          "locked-state": "已锁定"
+        },
+        "placeholders": {
+          "account-type": "请选择...",
+          "email": "请输入Email",
+          "user-name": "请输入用户名"
+        }
+      },
+      "account-list": {
+        "title": "用户",
+        "subtitle": "安全服务",
+        "labels": {
+          "name": "名称",
+          "account-type": "帐户类型",
+          "login": "登录",
+          "state": "状态"
+        }
+      },
+      "role-detail": {
+        "subtitle": "角色详情",
+        "labels": {
+          "summary": "摘要",
+          "name": "名称",
+          "description": "描述",
+          "assigned-permissions": "分配权限",
+          "permission-name": "名称",
+          "assigned-scopes": "指定的范围",
+          "no-permissions-assigned": "没有权限可以分配。"
+        },
+        "placeholders": {
+          "name": "请输入名称",
+          "description": "请输入描述"
+        }
+      },
+      "account-roles": {
+        "subtitle": "分配角色",
+        "labels": {
+          "select-roles": "选择分配的角色",
+          "no-roles": "没有角色可以分配。"
+        }
+      },
+      "account-roles-list": {
+        "title": "",
+        "labels": {
+          "assigned-roles": "分配角色",
+          "no-assigned": "没有可分配的角色。"
+        }
+      },
+      "permission-scopes": {
+        "subtitle": "配置权限范围",
+        "labels": {
+          "select-bounded-scopes": "选择选用范围",
+          "selected": "选择",
+          "scope-name": "范围名称及参数",
+          "no-scopes": "暂无范围"
+        }
+      },
+      "role-permissions": {
+        "subtitle": "分配权限",
+        "labels": { "select-permissions": "选择分配的权限" }
+      },
+      "new-role-wizard": {
+        "title": "新角色",
+        "labels": {
+          "summary": "摘要",
+          "name": "名称",
+          "description": "描述",
+          "assign-permissions": "分配权限"
+        },
+        "placeholders": {
+          "name": "请输入名称",
+          "description": "请输入描述"
+        }
+      },
+      "role-list": {
+        "title": "角色",
+        "subtitle": "安全服务",
+        "labels": { "name": "名称" }
+      },
+      "login": {
+        "labels": {
+          "sign-in": "后台登录",
+          "login": "登录",
+          "password": "密码",
+          "remember-me": "记住我",
+          "forgot-password": "忘记密码?",
+          "log-in": "登录"
+        }
+      },
+      "forgotpassword": {
+        "title": "忘记密码？",
+        "labels": {
+          "login": "登录名或者Email",
+          "description": "系统将向您的邮箱发送一份邮件以说明如何重置您的密码。",
+          "success": "邮件已发送到您的邮箱。",
+          "fail": "对不起，无法为您重置密码。",
+          "back": "返回",
+          "submit": "提交"
+        },
+        "placeholders": { "login-or-email": "请输入登录名或者Email" }
+      },
+      "resetpassword": {
+        "title": "密码重置",
+        "labels": {
+          "success": "您的密码已重置",
+          "fail": "对不起，无法为您重置密码。",
+          "submit": "重置",
+          "log-in": "登录"
+        }
+      },
+      "license": {
+        "title": "Current license",
+        "title-new": "New license activation",
+        "license-info": "License information",
+        "license-activation": "License activation",
+        "labels": {
+          "info-running-no-license": "This instance of Virto Commerce is running on",
+          "info-open-source-license": "Open Source Community license.",
+          "info0": "Acquiring or renewing the license:",
+          "info1": "Submit the ",
+          "info2": "We'll process your request and should contact you soon.",
+          "info3": "Once you receive the \"Activation Code\" and / or the License file, fill one of the activation fields below.",
+          "info4": "The system will display you the new license information. Review it and click \"Activate\" to confirm.",
+          "customer": "License issued to",
+          "type": "Type",
+          "expiration": "Expiration",
+          "email": "Customer email",
+          "request-license": "License request form.",
+          "code-descr": "Enter the received license \"Activation Code\" and hit [Enter]. This is the quickest license activation method. (Requires internet connection)",
+          "file-descr": "Optionally, provide the received License file. (Off-line activation)",
+          "upload-progress": "Upload progress",
+          "errors": "Activation error"
+        },
+        "placeholders": { "code": "Enter activation code" }
+      },
+      "new-account-wizard": {
+        "labels": {
+          "login": "登录",
+          "email": "Email",
+          "password": "密码",
+          "repeat-password": "重复密码",
+          "assign-roles": "分配角色"
+        },
+        "placeholders": {
+          "email": "Enter email",
+          "login": "请输入电子邮箱",
+          "password": "请输入新密码",
+          "repeat-password": "请重复输入新密码"
+        }
+      },
+      "security-main": {
+        "title": "安全",
+        "subtitle": "用户管理"
+      },
+      "entitySetting-list": { "title": "设置" },
+      "setting-dictionary": {
+        "subtitle": "管理字典的值",
+        "labels": {
+          "new-value": "请输入值",
+          "current-values": "当前值",
+          "value": "值"
+        },
+        "validations": {
+          "new-value-required": "必填",
+          "new-value": "重复值"
+        },
+        "placeholders": { "new-value": "请输入值" }
+      },
+      "settings-detail": { "title": "设置值" },
+      "settingGroup-list": { "title": "设置" },
+      "user-profile": {
+        "title": "用户配置",
+        "labels": {
+          "language": "语言",
+          "language-description": "界面语言。清除后将使用浏览器语言，或者默认语言。",
+          "regional-format": "区域格式",
+          "regional-format-description": "数字、货币、日期和时间的区域格式。清除后将使用默认的区域格式。",
+          "time-zone": "时区",
+          "time-zone-description": "当前用户的时区。请选择离您最近的城市。清除后将使用默认的时区。",
+          "use-time-ago": "如果可能的话，请使用时间格式。",
+          "full-date-threshold-group": "请使用完整的日期格式...",
+          "full-date-threshold-description": "时间单位的值",
+          "full-date-threshold-unit-description": "时间单位 (如：小时、年)"
+        },
+        "placeholders": {
+          "full-date-threshold": "请输阀值",
+          "full-date-threshold-unit": "请选择阀值单位"
+        },
+        "full-date-threshold-units": {
+          "Never": "永不",
+          "Seconds": "秒",
+          "Minutes": "分",
+          "Hours": "时",
+          "Days": "天",
+          "Weeks": "周",
+          "Months": "月",
+          "Quarters": "季度",
+          "Years": "年"
+        }
+      }
+    },
+    "templates": {
+      "sampleDataChoose": {
+        "labels": {
+          "choose-sample-data-type": "选择样本数据类型",
+          "size": "大小",
+          "version": "版本"
+        }
+      },
+      "sampleDataInitialization": {
+        "labels": {
+          "sample-data-initialization": "样本数据初始化",
+          "starting-initialization": "开始样本数据初始化...",
+          "errors": "错误",
+          "start": "开始",
+          "end": "结束"
+        }
+      },
+      "licensing": {
+        "license-absent": "Community license",
+        "license-present": "{{type}} license",
+        "community": "Running community edition, click to request a commercial license.",
+        "expired": "You license has expired on {{expirationDate | amParse | date}}, please renew."
+      },
+      "modulesAutoInstallation": {
+        "labels": {
+          "module-auto-installation": "自动安装模块",
+          "loading": "检索模块信息...",
+          "finished": "安装已完成。点击【重启】以继续。",
+          "start": "开始",
+          "end": "结束"
+        }
+      }
+    },
+    "widgets": {
+      "operations": {
+        "title": "修改",
+        "blade-subtitle": "修改历史"
+      },
+      "dynamicProperty": { "title": "动态属性" },
+      "entitySettings": { "title": "设置" },
+      "accountApi": {
+        "title": "API密钥",
+        "blade-subtitle": "API密钥"
+      },
+      "accountRoles": {
+        "title": "角色",
+        "blade-subtitle": "管理角色"
+      }
+    },
+    "dialogs": {
+      "folders-delete": {
+        "title": "确认删除",
+        "message": "您确定要删除选定的文件夹或文件吗？"
+      },
+      "properties-save": {
+        "title": "保存更改",
+        "message": "该属性已被修改。您想保存吗？"
+      },
+      "notification-template-save": {
+        "title": "保存更改",
+        "message": "该通知模板已被修改。您想保存吗？"
+      },
+      "role-save": {
+        "title": "保存更改",
+        "message": "该角色已被修改。您想保存吗？"
+      },
+      "roles-delete": {
+        "title": "确认删除",
+        "message": "您确定要删除选定的角色吗？"
+      },
+      "account-save": {
+        "title": "保存更改",
+        "message": "该帐户已被修改。您想保存吗？"
+      },
+      "account-delete": {
+        "title": "确认删除",
+        "message": "您确定要删除选定的帐户吗？"
+      },
+      "dynamic-property-delete": {
+        "title": "确认删除",
+        "message": "您确定要删除这个动态属性吗？"
+      },
+      "settings-value-delete": {
+        "title": "确认删除",
+        "message": "您确定要删除选定的值吗？"
+      },
+      "settings-save": {
+        "title": "保存更改",
+        "message": "该设置已被修改。您想保存吗？"
+      },
+      "settings-delete": {
+        "title": "确认删除",
+        "message": "该设置已被修改。您想保存吗？"
+      },
+      "email-sending-success": {
+        "title": "发送成功",
+        "message": "发送电子邮件成功！"
+      },
+      "email-send-error": {
+        "title": "发送出错",
+        "message": "电子邮件没有发送！"
+      },
+      "dictionary-items-delete": {
+        "title": "确认删除",
+        "message": "您确定要删除选定的{{quantity}}项字典项吗？"
+      },
+      "module-action": {
+        "title-install": "安装信息",
+        "title-update": "更新信息",
+        "title-delete": "卸载信息",
+        "message0-install": "即将安装：",
+        "message0-update": "即将更新：",
+        "message0-delete": "即将卸载：",
+        "message1-install": "以下依赖项也将被安装：",
+        "message1-delete": "以下依赖项也将被卸载：",
+        "message2-install": "是否安装所选项及其依赖项？",
+        "message2-update": "是否更新所选项及其依赖项？",
+        "message2-delete": "是否卸载所选项及其依赖项？"
+      },
+      "module-delete": {
+        "title": "确认删除",
+        "message": "您确定要卸载这个模块吗？"
+      },
+      "api-key-delete": {
+        "title": "确认删除",
+        "message": "您确定要删除这个API密钥吗？"
+      },
+      "app-restart": {
+        "title": "系统重启",
+        "message": "您确定重启系统吗？"
+      },
+      "error-details": { "title": "错误信息" }
     }
+  }
 }
